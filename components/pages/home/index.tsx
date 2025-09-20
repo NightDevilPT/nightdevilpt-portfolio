@@ -1,38 +1,9 @@
 "use client";
 
 import React from "react";
-import { Button } from "@/components/ui/button";
-import BasePage from "@/components/shared/base-page";
 import { Download, LayoutDashboard } from "lucide-react";
+import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
-
-interface AnimatedButtonProps {
-	label: string;
-	icon: React.ReactElement<{ className?: string }>;
-	className?: string;
-}
-
-export const AnimatedButton: React.FC<AnimatedButtonProps> = ({
-	label,
-	icon,
-	className,
-}) => (
-	<Button
-		variant="outline"
-		className={`flex hover:!bg-primary justify-start items-center gap-3 !p-6 rounded-full group transition-all duration-200 max-xl:!px-8 max-xl:!py-6 backdrop-blur-xl text-left text-[clamp(0.875rem,2vw+0.5rem,1rem)] ${className}`}
-	>
-		<div className="relative overflow-hidden">
-			<p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] flex justify-center items-center gap-3">
-				{label}
-				{React.cloneElement(icon, { className: "w-5 h-5" })}
-			</p>
-			<p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] flex justify-center items-center gap-3">
-				{label}
-				{React.cloneElement(icon, { className: "w-5 h-5" })}
-			</p>
-		</div>
-	</Button>
-);
 
 const HomePage: React.FC = () => {
 	const { dictionary } = useLanguage();

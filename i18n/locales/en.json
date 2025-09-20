@@ -545,5 +545,33 @@
 				"iconName": "FaBrain"
 			}
 		]
+	},
+
+	"contact": {
+		"contact": "Contact",
+		"title": "Let's make something awesome together!",
+		"description": "Want to know more about me, tell me about your project or just to say hello? Drop me a line and I'll get back as soon as possible.",
+		"form": {
+			"yourName": "Your Name*",
+			"emailAddress": "Email Address*",
+			"companyName": "Company Name*",
+			"phoneNumber": "Phone Number*",
+			"description": "Description",
+			"sendMessage": "Send Message"
+		},
+		"footer": [
+			{
+				"title": "location",
+				"value": "Delhi, India"
+			},
+			{
+				"title": "Phone",
+				"value": "+91-9540079162"
+			},
+			{
+				"title": "Email",
+				"value": "pawankumartadagsingh@gmail.com"
+			}
+		]
 	}
 }

@@ -2,11 +2,10 @@
 
 import React from "react";
 import Image from "next/image";
-import { AnimatedButton } from "../home";
 import { Badge } from "@/components/ui/badge";
-import BasePage from "@/components/shared/base-page";
 import SpotlightCard from "@/components/ui/SpotlightCard";
 import { Download, Code, Server, Cpu, Palette } from "lucide-react";
+import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
 
 interface PersonalDetail {
