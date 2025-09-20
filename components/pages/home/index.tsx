@@ -12,7 +12,7 @@ interface AnimatedButtonProps {
 	className?: string;
 }
 
-const AnimatedButton: React.FC<AnimatedButtonProps> = ({
+export const AnimatedButton: React.FC<AnimatedButtonProps> = ({
 	label,
 	icon,
 	className,

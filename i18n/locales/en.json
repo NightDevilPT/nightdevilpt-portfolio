@@ -266,5 +266,99 @@
 				"role": "Frontend Developer & UI Designer"
 			}
 		]
+	},
+
+	"about": {
+		"about": "About",
+		"title": "Transforming ideas into scalable digital solutions",
+		"items": [
+			{
+				"title": "Happy Clients",
+				"value": 10
+			},
+			{
+				"title": "Years of Experience",
+				"value": 2
+			},
+			{
+				"title": "Projects Completed",
+				"value": 2
+			}
+		],
+		"descriptions": [
+			"I am a passionate full-stack developer specializing in modern web technologies. With expertise in both frontend and backend development, I create seamless, scalable applications that deliver exceptional user experiences while maintaining robust server-side architecture.",
+			"My approach combines clean, maintainable code with cutting-edge technologies like Next.js, NestJS, and TypeScript. I believe in building solutions that not only meet current requirements but are also future-ready and easily scalable."
+		],
+		"personalDetails": [
+			{ "title": "Name", "value": "Pawan Kumar" },
+			{ "title": "Phone", "value": "+91-9540079162" },
+			{ "title": "Email", "value": "pawankumartadagsingh@gmail.com" },
+			{ "title": "Location", "value": "Delhi, India" }
+		],
+		"services": [
+			{
+				"title": "Frontend Development",
+				"description": "Building responsive, interactive web applications using Next.js with TypeScript, styled with TailwindCSS and enhanced with ShadCN UI components. Expert in state management with Redux Toolkit and Context API, plus specialized libraries like ReactFlow for complex visualizations.",
+				"image": "",
+				"tags": [
+					"Next.js",
+					"React",
+					"TypeScript",
+					"TailwindCSS",
+					"ShadCN",
+					"Redux",
+					"ReactFlow"
+				]
+			},
+			{
+				"title": "Backend Development",
+				"description": "Developing robust APIs and server-side applications using NestJS with TypeScript. Experienced in database design, authentication systems, microservices architecture, and implementing scalable backend solutions with proper error handling and security measures.",
+				"image": "",
+				"tags": [
+					"NestJS",
+					"Node.js",
+					"TypeScript",
+					"REST APIs",
+					"GraphQL",
+					"PostgreSQL",
+					"MongoDB",
+					"Design Patterns"
+				]
+			},
+			{
+				"title": "Full Stack Solutions",
+				"description": "End-to-end application development combining modern frontend frameworks with powerful backend systems. Specializing in creating seamless integrations, optimized performance, and maintainable codebases with proper testing and deployment strategies.",
+				"image": "",
+				"tags": [
+					"Full Stack",
+					"System Design",
+					"Database Design",
+					"DevOps",
+					"Testing",
+					"Deployment"
+				]
+			},
+			{
+				"title": "UI/UX Implementation",
+				"description": "Converting design mockups into pixel-perfect, responsive interfaces with smooth animations and optimal user experience. Focus on accessibility, performance optimization, and cross-browser compatibility using modern CSS techniques and component libraries.",
+				"image": "",
+				"tags": [
+					"Design to Code",
+					"Responsive Design",
+					"UI/UX",
+					"Animations",
+					"Performance",
+					"Accessibility"
+				]
+			}
+		],
+		"highlights": [
+			"3+ years of professional development experience",
+			"Expertise in modern TypeScript-first development",
+			"Strong focus on clean architecture and scalable solutions",
+			"Experience with both SQL and NoSQL databases",
+			"Proficient in modern deployment and DevOps practices",
+			"Passionate about continuous learning and staying updated with latest technologies"
+		]
 	}
 }
