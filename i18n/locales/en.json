@@ -1,0 +1,270 @@
+{
+	"general": {
+		"letsTalk": "Let's Talk",
+		"letsWorkTogether": "Let's Work Together!",
+		"pawanKumar": "Pawan Kumar",
+		"softwareEngineer": "Software Engineer",
+		"specialization": {
+			"title": "Specialization",
+			"description": "Software Engineer || MERN Stack || Full Stack Developer"
+		},
+		"basedIn": {
+			"title": "Based In",
+			"description": "Delhi, India"
+		},
+		"letsMeet": "Let's Meet"
+	},
+	"home": {
+		"title": "I'm Pawan Kumar",
+		"shortDescription": "Software Engineer and Crafting innovative web solutions as a passionate MERN Stack and Full Stack Developer.",
+		"myWork": "My Work",
+		"downloadCV": "Download CV"
+	},
+	"portfolio": {
+		"portfolio": "Portfolio",
+		"title": "Check out my projects",
+		"project": [
+			{
+				"id": "nodge-workflow-automation",
+				"title": "Nodge - Visual Workflow Automation Platform",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-dashboard.png?alt=media&token=363143d1-5dea-4615-8ea3-0c431298f199",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow.png?alt=media&token=807fcde3-15c6-4966-989f-d1365846ba31",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow-2.png?alt=media&token=7f26f1e0-49bc-48d7-8d0a-9f1cf2a5f6e0",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-flow.png?alt=media&token=aca29dcf-2e17-4818-b1db-129c23c1baab",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-settings.png?alt=media&token=2d1d2c77-7d43-4944-b05a-a2cfc3082f89"
+				],
+				"description": "A sophisticated visual workflow automation platform that enables users to create custom workflows through node-based programming with secure credential management.",
+				"detailedDescription": "Developed a comprehensive full-stack workflow automation solution using Next.js with advanced visual programming capabilities. Implemented a node-based interface using React Flow, allowing users to drag-and-drop nodes and create complex workflows through visual connections. Built secure credential management system with Prisma ORM for database operations, enabling users to store and reuse sensitive data across workflows. Created authentication system with user registration/login and personalized workflow dashboards.",
+				"tech": [
+					"Next.js 14",
+					"React Flow",
+					"Prisma",
+					"PostgreSQL",
+					"Tailwind CSS",
+					"Shadcn/UI",
+					"NextAuth.js",
+					"TypeScript"
+				],
+				"features": [
+					"Visual node-based workflow editor",
+					"Drag-and-drop interface with React Flow",
+					"Secure credential storage and management",
+					"User authentication system",
+					"Real-time workflow visualization",
+					"Custom node creation and configuration",
+					"Workflow execution and debugging",
+					"Responsive dashboard design",
+					"Database integration with Prisma",
+					"Export/import workflow capabilities"
+				],
+				"github": "https://github.com/NightDevilPT/nodge",
+				"live": "https://nightdevilpt-nodge.vercel.app",
+				"status": "in-progress",
+				"completionDate": "2024-03-15",
+				"role": "Full Stack Developer & System Architect"
+			},
+			{
+				"id": "mock-ai-interview-platform",
+				"title": "Mock AI Interview Platform - Full Stack",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-login.png?alt=media&token=add1adc1-ca3e-4c06-b0eb-154926a67bba",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-signup.png?alt=media&token=5ac85564-3bd3-4a5d-9e78-bfbb8e46900e",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-sessions.png?alt=media&token=bf4121ba-f710-4f76-96dc-4a713be39a8b",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-overview.png?alt=media&token=01a67077-1129-4388-b091-1463595b1c93",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-1.png?alt=media&token=e42d1514-3735-48d3-9685-58d30c086345",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-2.png?alt=media&token=54975be9-3dcf-4bc6-8b76-e851455ee9bd",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-3.png?alt=media&token=33f2ceeb-ee2d-45ca-82b0-77ee1dfaec9b",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-4.png?alt=media&token=242c5932-52bf-4d2a-b813-e514f052faac"
+				],
+				"description": "An AI-powered text-based interview simulation platform that generates adaptive questions and provides intelligent evaluations using advanced language models.",
+				"detailedDescription": "Engineered a comprehensive AI interview platform using Next.js, LangChain, and Gemini AI to revolutionize interview preparation. The system reduces interview preparation time by 75% and enables recruiters to evaluate twice as many candidates weekly. Implemented machine learning integration for adaptive question difficulty scaling and personalized candidate evaluation based on domain expertise. Supports multiple question types including technical, behavioral, and scenario-based assessments with real-time AI-powered feedback and scoring mechanisms.",
+				"tech": [
+					"Next.js",
+					"LangChain",
+					"Gemini AI",
+					"MongoDB",
+					"TypeScript",
+					"TailwindCSS",
+					"AI Integration"
+				],
+				"features": [
+					"AI-generated adaptive interview questions",
+					"Personalized difficulty scaling",
+					"Multiple question types (technical/behavioral/scenario)",
+					"Real-time evaluation and scoring",
+					"Domain-specific expertise assessment",
+					"Comprehensive candidate feedback reports",
+					"Recruiter dashboard for candidate management",
+					"Secure authentication and session management"
+				],
+				"github": "https://github.com/yourusername/mock-interview-generator",
+				"live": "https://mock-ai-interview-seven.vercel.app/auth/login",
+				"status": "in-progress",
+				"completionDate": "2024-03-15",
+				"role": "Full Stack Developer & AI Integration Specialist"
+			},
+			{
+				"id": "package-showcase-platform",
+				"title": "My NPM Packages Showcase - Next.js",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181408.png?alt=media&token=62dcf13f-3b08-45db-ab58-33e3fbf1c5f9",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181423.png?alt=media&token=df8dee96-d81d-4379-873a-160d4cbbfd87"
+				],
+				"description": "A demonstration platform showcasing my published NPM packages with live examples, usage documentation, and interactive implementation previews.",
+				"detailedDescription": "Developed a clean, professional showcase platform using Next.js to demonstrate the functionality and real-world applications of my published NPM packages. The platform features live implementation examples, comprehensive usage documentation, and interactive component previews. Implemented performance optimization techniques including lazy loading and efficient bundle management, resulting in a 35% reduction in page load times and 20% improvement in user engagement. Each package includes installation guides, API documentation, and practical use cases to help developers understand and implement the solutions effectively.",
+				"tech": [
+					"Next.js",
+					"React",
+					"TailwindCSS",
+					"TypeScript",
+					"NPM Registry API",
+					"Performance Optimization",
+					"Vercel"
+				],
+				"features": [
+					"Live demonstrations of NPM packages",
+					"Interactive component previews",
+					"Comprehensive documentation and usage examples",
+					"Installation guides and code snippets",
+					"Performance-optimized loading",
+					"Responsive design for developers",
+					"Search and filter functionality",
+					"Package statistics and download metrics"
+				],
+				"github": "https://github.com/NightDevilPT/package-showcase",
+				"live": "https://package-showcase.vercel.app/",
+				"status": "completed",
+				"completionDate": "2024-01-20",
+				"role": "Frontend Developer & Package Author"
+			},
+			{
+				"id": "cloudify-storage-provider",
+				"title": "Cloudify Storage Provider - Next.js Platform",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fstorage-provider.png?alt=media&token=86ee859d-23a7-4ea8-9033-a5aaed4a39c1"
+				],
+				"description": "A modern cloud storage solution built with Next.js, offering seamless file management, sharing capabilities, and real-time collaboration features.",
+				"detailedDescription": "Developed a comprehensive cloud storage platform frontend using Next.js with advanced file management capabilities. Implemented a responsive and intuitive user interface with Tailwind CSS and NextUI components. Utilized Redux for efficient global state management across complex file operations and user interactions. Deployed on Vercel for optimal performance and scalability, featuring drag-and-drop functionality, file previews, and secure sharing mechanisms.",
+				"tech": [
+					"Next.js 14",
+					"Redux Toolkit",
+					"TailwindCSS",
+					"NextUI",
+					"TypeScript",
+					"File Handling API",
+					"Vercel"
+				],
+				"features": [
+					"Real-time file synchronization",
+					"File sharing with permission controls",
+					"Advanced search and filtering system",
+					"Responsive design for all devices",
+					"Secure file storage and management",
+					"User authentication and authorization"
+				],
+				"github": "https://github.com/NightDevilPT/file-system-client",
+				"live": "https://file-system-client.vercel.app/",
+				"status": "in-progress",
+				"role": "Full Stack Developer & UI/UX Designer"
+			},
+			{
+				"id": "gamies-frontend",
+				"title": "Gamies Gaming World - Next.js Frontend",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fgamies.png?alt=media&token=9a9710bd-b1d5-42c0-ba85-f34e929de5f2"
+				],
+				"description": "A modern gaming platform frontend built with Next.js, featuring game discovery, user profiles, and interactive UI components with seamless state management.",
+				"detailedDescription": "Developed a comprehensive gaming frontend application deployed on Vercel using Next.js. Implemented responsive design with TailwindCSS and dynamic component library with NextUI. Managed complex application state using Redux and integrated with RAWG.io API for real-time game data fetching and filtering.",
+				"tech": [
+					"Next.js 14",
+					"Redux Toolkit",
+					"TailwindCSS",
+					"NextUI",
+					"TypeScript",
+					"RAWG.io API"
+				],
+				"features": [
+					"Responsive game catalog with search and filters",
+					"User authentication and profile management",
+					"Game details with ratings and reviews",
+					"Favorite games collection",
+					"Optimized performance with SSR and ISR"
+				],
+				"github": "https://github.com/NightDevilPT/gamies-nextjs",
+				"live": "https://gamies-nextjs.vercel.app/",
+				"status": "In progress"
+			},
+			{
+				"id": "moviehub-entertainment-platform",
+				"title": "MovieHUB Entertainment Platform - Full Stack",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmoviehub.png?alt=media&token=2be223b6-5c36-4662-9952-5324698b40bd"
+				],
+				"description": "A comprehensive entertainment discovery platform featuring movies, TV shows, and celebrity information with personalized user experience and advanced customization options.",
+				"detailedDescription": "Developed a full-stack entertainment application using modern web technologies with seamless integration of TMDB API. Built a responsive and immersive user interface with extensive customization capabilities including theme switching, font family selection, and personalized content preferences. Implemented advanced search functionality, detailed media information pages, and user watchlist features with persistent data storage.",
+				"tech": [
+					"React",
+					"Node.js",
+					"TMDB API",
+					"CSS3",
+					"LocalStorage API",
+					"RESTful APIs",
+					"Vercel Deployment"
+				],
+				"features": [
+					"Comprehensive movie and TV show database",
+					"Advanced search with filters and categories",
+					"Customizable themes (light/dark mode)",
+					"Multiple font family options",
+					"Celebrity profiles and filmography",
+					"User watchlist and favorites system",
+					"Responsive design across all devices",
+					"Real-time data fetching from TMDB API"
+				],
+				"github": "https://github.com/NightDevilPT/movie-hub",
+				"live": "https://movie-hub-git-main-nightdevilpt.vercel.app/",
+				"status": "completed",
+				"role": "Full Stack Developer & UI Designer"
+			},
+			{
+				"id": "job-desktop-dashboard",
+				"title": "Job Desktop Dashboard - React Interface",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fdashboard.png?alt=media&token=bec0be0b-5568-42c1-a1fc-04a582db5205"
+				],
+				"description": "A modern desktop dashboard interface for job management with custom-built carousel components and intuitive user experience design.",
+				"detailedDescription": "Designed and developed a sophisticated desktop dashboard interface using ReactJS with a focus on performance and custom component implementation. Created a custom carousel system from scratch without relying on external libraries like Swiper.JS, demonstrating deep understanding of React hooks and DOM manipulation. Built a comprehensive job management dashboard with statistics visualization, task tracking, and user-friendly navigation system.",
+				"tech": [
+					"React.js",
+					"JavaScript (ES6+)",
+					"CSS3",
+					"Custom Hooks",
+					"DOM Manipulation",
+					"Vercel"
+				],
+				"features": [
+					"Custom-built carousel component without external libraries",
+					"Responsive desktop-first design approach",
+					"Interactive dashboard with real-time statistics",
+					"Job tracking and management system",
+					"Smooth animations and transitions",
+					"Modular component architecture",
+					"Performance-optimized rendering",
+					"Cross-browser compatibility"
+				],
+				"github": "https://github.com/NightDevilPT/dashboard-pc-design",
+				"live": "https://dashboard-pc-design-git-main-nightdevilpt.vercel.app/",
+				"status": "completed",
+				"role": "Frontend Developer & UI Designer"
+			}
+		]
+	}
+}
