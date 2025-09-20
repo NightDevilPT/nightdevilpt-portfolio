@@ -1,21 +1,60 @@
-import {
-	Dictionary,
-	useLanguage,
-} from "@/components/providers/context/language-context";
+import { useLanguage } from "@/components/providers/context/language-context";
 import { Button } from "@/components/ui/button";
-import { DockItemData } from "@/components/ui/Dock";
 import {
 	Home,
 	MessageCircle,
-	NotebookTabs,
 	SquareKanban,
 	User,
 } from "lucide-react";
-import React, { cloneElement, useState, useMemo } from "react";
+import React, { cloneElement, useState, useMemo, useEffect } from "react";
+import { SiRescuetime } from "react-icons/si";
 
 const Header = () => {
 	const { dictionary } = useLanguage();
 	const [activeItem, setActiveItem] = useState<string>("Home");
+
+	// Function to handle smooth scrolling to sections
+	const scrollToSection = (sectionId: string) => {
+		const element = document.querySelector(sectionId);
+		if (element) {
+			element.scrollIntoView({
+				behavior: "smooth",
+				block: "start",
+			});
+		}
+	};
+
+	// Update active item based on scroll position
+	useEffect(() => {
+		const handleScroll = () => {
+			const sections = ["home", "about", "resume", "contact"];
+			const scrollPosition = window.scrollY + 100;
+
+			for (const section of sections) {
+				const element = document.getElementById(section);
+				if (element) {
+					const offsetTop = element.offsetTop;
+					const offsetHeight = element.offsetHeight;
+
+					if (
+						scrollPosition >= offsetTop &&
+						scrollPosition < offsetTop + offsetHeight
+					) {
+						setActiveItem(
+							section === "home"
+								? "Home"
+								: section.charAt(0).toUpperCase() +
+										section.slice(1)
+						);
+						break;
+					}
+				}
+			}
+		};
+
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, []);
 
 	const routes = useMemo(() => {
 		if (!dictionary) return [];
@@ -25,21 +64,29 @@ const Header = () => {
 				label: dictionary?.navigation?.home || "Home",
 				icon: <Home className="w-6 h-6" />,
 				className: "border-primary",
+				link: "#home",
+				id: "home",
 			},
 			{
 				label: dictionary?.navigation?.about || "About",
 				icon: <User className="w-6 h-6" />,
 				className: "border-primary",
+				link: "#about",
+				id: "about",
 			},
 			{
-				label: dictionary?.navigation?.projects || "Projects",
+				label: dictionary?.portfolio?.portfolio || "Projects",
 				icon: <SquareKanban className="w-6 h-6" />,
 				className: "border-primary",
+				link: "#portfolio",
+				id: "portfolio",
 			},
 			{
-				label: dictionary?.navigation?.contact || "Contact",
-				icon: <NotebookTabs className="w-6 h-6" />,
+				label: dictionary?.resume?.resume || "Resume",
+				icon: <SiRescuetime className="w-6 h-6" />,
 				className: "border-primary",
+				link: "#resume",
+				id: "resume",
 			},
 		];
 
@@ -48,13 +95,18 @@ const Header = () => {
 			...item,
 			onClick: () => {
 				setActiveItem(item.label);
-				// Add your navigation logic here
+				scrollToSection(item.link);
 			},
 		}));
 	}, [dictionary]);
 
+	const handleLetsTalkClick = () => {
+		setActiveItem("Let's Talk");
+		scrollToSection("#contact");
+	};
+
 	return (
-		<div className="w-full h-auto sticky top-0 left-0 flex justify-end items-center gap-5 p-4 max-xl:hidden">
+		<div className="w-full h-auto sticky top-0 left-0 flex justify-end items-center gap-5 p-4 max-xl:hidden z-50 bg-background/80 backdrop-blur-md">
 			<div className="flex justify-center items-center gap-3">
 				{routes?.map((item, index) => (
 					<Button
@@ -67,10 +119,7 @@ const Header = () => {
 								? "!border-primary"
 								: "!bg-transparent"
 						} backdrop-blur-xl`}
-						onClick={() => {
-							setActiveItem(item.label);
-							item.onClick();
-						}}
+						onClick={item.onClick}
 					>
 						{cloneElement(
 							item.icon as React.ReactElement<{
@@ -103,8 +152,8 @@ const Header = () => {
 			</div>
 
 			<Button
-				className="flex justify-center items-center gap-3 !py-6 !px-8 rounded-full text-xl bg-primary text-primary-foreground max-lg:hidden"
-				onClick={() => setActiveItem("Let's Talk")}
+				className="flex justify-center items-center gap-3 !py-6 !px-8 rounded-full text-xl bg-primary text-primary-foreground max-lg:hidden hover:bg-primary/90 transition-colors"
+				onClick={handleLetsTalkClick}
 			>
 				{dictionary?.general?.letsTalk || "Let's Talk"}{" "}
 				<MessageCircle className="!w-5 !h-5" />

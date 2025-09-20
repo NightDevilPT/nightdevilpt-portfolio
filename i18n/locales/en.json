@@ -360,5 +360,190 @@
 			"Proficient in modern deployment and DevOps practices",
 			"Passionate about continuous learning and staying updated with latest technologies"
 		]
+	},
+
+	"resume": {
+		"resume": "Resume",
+		"title": "Education & Professional Journey",
+		"description": "A well-rounded academic foundation combined with diverse professional experience has enabled me to grow as a versatile software developer, committed to continuous learning, innovation, and delivering impactful solutions.",
+		"courseBy": "Institution:",
+		"myEducation": "Education",
+		"educationDescription": "An overview of my academic qualifications and areas of focus throughout my learning journey.",
+		"educations": [
+			{
+				"title": "Bachelor of Vocation in Software Development",
+				"timeline": "2019-2022",
+				"courseBy": "Guru Gobind Singh Indraprastha University",
+				"description": "Specialized in software development with emphasis on web technologies, system architecture, and data structures & algorithms.",
+				"grade": "CGPA: 9.16/10",
+				"place": "Delhi, India"
+			},
+			{
+				"title": "Senior Secondary (12th) - Arts Stream",
+				"timeline": "2017-2018",
+				"courseBy": "National Institute of Open Schooling (NIOS)",
+				"description": "Focused on Economics, Hindi, Geography, English, History, and Political Science, developing strong analytical and social science perspectives.",
+				"grade": "Percentage: 65%",
+				"place": "Delhi, India"
+			},
+			{
+				"title": "Secondary (10th)",
+				"timeline": "2014-2015",
+				"courseBy": "Central Board of Secondary Education (CBSE)",
+				"description": "Completed foundational education with a focus on core subjects, fostering overall academic and personal development.",
+				"grade": "CGPA: 9/10",
+				"place": "Delhi, India"
+			}
+		],
+		"myExperience": "Professional Experience",
+		"experienceDescription": "A summary of my professional contributions, highlighting impactful projects, technical expertise, and collaboration in diverse environments.",
+		"experiences": [
+			{
+				"title": "Software Developer",
+				"company": "Charm AI Technologies Pvt. Ltd",
+				"timeline": "Mar 2025 - Sep 2025",
+				"place": "On-Site, Delhi, India",
+				"description": "Contributed to the development of a scalable warranty management system, enhancing enterprise workflows with role-based access and partner integrations.",
+				"responsibilities": [
+					"Engineered a multi-tenant SaaS platform for 10+ enterprise clients, enhancing scalability and modularity.",
+					"Designed and implemented a role-based access control (RBAC) system, reducing security incidents by 85% and supporting 50+ role configurations.",
+					"Enhanced the admin dashboard and onboarding workflows, reducing configuration time by 40%.",
+					"Streamlined partner and dealer onboarding processes, reducing setup time by 50% and empowering 100+ partners to manage workflows independently."
+				],
+				"techStack": [
+					"React.js",
+					"Next.js",
+					"NestJS",
+					"TypeScript",
+					"Node.js",
+					"PostgreSQL",
+					"GraphQL",
+					"AWS"
+				]
+			},
+			{
+				"title": "Software Developer",
+				"company": "Misemind Technology Private Limited",
+				"timeline": "Sep 2023 - Feb 2025",
+				"place": "On-Site, Delhi, India",
+				"description": "Led the development of a tracking management system, delivering real-time analytics, geofencing, and scalable backend APIs.",
+				"responsibilities": [
+					"Developed a responsive web application using Angular, improving load times by 40% for 2,000+ daily users.",
+					"Architected and optimized REST APIs with FastAPI, efficiently handling 5,000+ daily requests.",
+					"Integrated OpenSearch for real-time analytics, improving query performance and system responsiveness by 30%.",
+					"Implemented geofencing with Leaflet.js and Elasticsearch, enabling real-time GPS tracking with 25% faster data retrieval."
+				],
+				"techStack": [
+					"Angular",
+					"FastAPI",
+					"Python",
+					"Leaflet.js",
+					"Elasticsearch",
+					"OpenSearch",
+					"MySQL",
+					"Docker"
+				]
+			}
+		],
+		"myFavouriteToolsAndLibs": "My favourite tools and libs",
+
+		"toolsAndLibs": [
+			{
+				"title": "HTML5",
+				"description": "Proficient in creating structured web pages.",
+				"link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+				"iconName": "FaHtml5"
+			},
+			{
+				"title": "CSS",
+				"description": "Skilled in responsive design with TailwindCSS.",
+				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+				"iconName": "FaCss3Alt"
+			},
+			{
+				"title": "JavaScript",
+				"description": "Experienced in dynamic web applications.",
+				"link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				"iconName": "FaJsSquare"
+			},
+			{
+				"title": "React.js",
+				"description": "Expert in building interactive UIs.",
+				"link": "https://reactjs.org/",
+				"iconName": "SiReact"
+			},
+			{
+				"title": "Next.js",
+				"description": "Specialized in SSR and SSG apps.",
+				"link": "https://nextjs.org/",
+				"iconName": "RiNextjsFill"
+			},
+			{
+				"title": "NestJS",
+				"description": "Proficient in scalable backend solutions.",
+				"link": "https://nestjs.com/",
+				"iconName": "SiNestjs"
+			},
+			{
+				"title": "Angular",
+				"description": "Skilled in robust frontend frameworks.",
+				"link": "https://angular.io/",
+				"iconName": "SiAngular"
+			},
+			{
+				"title": "TypeScript",
+				"description": "Expert in static typing for JS.",
+				"link": "https://www.typescriptlang.org/",
+				"iconName": "BiLogoTypescript"
+			},
+			{
+				"title": "Prisma",
+				"description": "Proficient in type-safe ORM.",
+				"link": "https://www.prisma.io/",
+				"iconName": "SiPrisma"
+			},
+			{
+				"title": "MongoDB",
+				"description": "Experienced with NoSQL databases.",
+				"link": "https://www.mongodb.com/",
+				"iconName": "SiMongodb"
+			},
+			{
+				"title": "PostgreSQL",
+				"description": "Skilled in relational databases.",
+				"link": "https://www.postgresql.org/",
+				"iconName": "BiLogoPostgresql"
+			},
+			{
+				"title": "Strapi",
+				"description": "Proficient in headless CMS.",
+				"link": "https://strapi.io/",
+				"iconName": "SiStrapi"
+			},
+			{
+				"title": "FastAPI",
+				"description": "Experienced in high-performance APIs.",
+				"link": "https://fastapi.tiangolo.com/",
+				"iconName": "SiFastapi"
+			},
+			{
+				"title": "Docker",
+				"description": "Skilled in containerization.",
+				"link": "https://www.docker.com/",
+				"iconName": "SiDocker"
+			},
+			{
+				"title": "Stripe",
+				"description": "Experienced in payment integrations.",
+				"link": "https://stripe.com/",
+				"iconName": "FaCcStripe"
+			},
+			{
+				"title": "AI Tools",
+				"description": "Utilize AI IDEs for enhanced coding.",
+				"link": "https://cursor.sh/",
+				"iconName": "FaBrain"
+			}
+		]
 	}
 }

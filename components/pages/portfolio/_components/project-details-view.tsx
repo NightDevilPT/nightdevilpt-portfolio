@@ -7,10 +7,6 @@ import {
 	DialogTitle,
 	DialogTrigger,
 } from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Eye, User, ExternalLink, Github, ImageIcon } from "lucide-react";
-import Autoplay from "embla-carousel-autoplay";
 import {
 	Carousel,
 	CarouselContent,
@@ -19,9 +15,13 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import { getCategoryColor, getStatusColor } from "@/lib/utils";
 import { Project } from "@/interface/project";
+import Autoplay from "embla-carousel-autoplay";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { getCategoryColor, getStatusColor } from "@/lib/utils";
+import { Eye, User, ExternalLink, Github, ImageIcon } from "lucide-react";
 
 interface ProjectDetailDialogProps {
 	project: Project;

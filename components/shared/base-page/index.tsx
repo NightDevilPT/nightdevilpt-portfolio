@@ -1,12 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { ReactNode } from "react";
+import { TiStarFullOutline } from "react-icons/ti";
 import { Button } from "@/components/ui/button";
-import BasePage from "@/components/shared/base-page";
-import { Download, LayoutDashboard } from "lucide-react";
-import { useLanguage } from "@/components/providers/context/language-context";
 
-interface AnimatedButtonProps {
+export interface AnimatedButtonProps {
 	label: string;
 	icon: React.ReactElement<{ className?: string }>;
 	className?: string;
@@ -34,29 +32,39 @@ export const AnimatedButton: React.FC<AnimatedButtonProps> = ({
 	</Button>
 );
 
-const HomePage: React.FC = () => {
-	const { dictionary } = useLanguage();
+interface BasePageProps {
+	title: string;
+	description?: string;
+	children: ReactNode;
+	titleTags: string;
+	id: string;
+}
 
+const BasePage: React.FC<BasePageProps> = ({
+	children,
+	title,
+	description,
+	titleTags,
+	id
+}) => {
 	return (
-		<BasePage
-			id="home"
-			title={dictionary?.home?.title}
-			description={dictionary?.home?.shortDescription}
-			titleTags={dictionary?.general?.letsMeet}
-		>
-			<div className="w-full h-auto flex justify-start gap-5 items-start mt-8 flex-wrap">
-				<AnimatedButton
-					label={dictionary?.home?.myWork || "My Work"}
-					icon={<LayoutDashboard />}
-				/>
-				<AnimatedButton
-					label={dictionary?.home?.downloadCV || "Download CV"}
-					icon={<Download />}
-					className="!bg-primary"
-				/>
-			</div>
-		</BasePage>
+		<div className="w-full h-auto relative pt-40 max-xl:pt-10" id={id}>
+			<span className="px-5 py-2 max-w-44 mb-5 rounded-full flex justify-center gap-4 items-center border-[1px]">
+				<TiStarFullOutline className="w-5 h-5 text-muted-foreground" />
+				{titleTags}
+			</span>
+			<h1 className="max-xl:mt-0 text-[clamp(2.25rem,5vw+1rem,4.5rem)] text-primary font-bold">
+				{title}
+			</h1>
+			{description && (
+				<span className="text-[clamp(1.5rem,3vw+0.5rem,2.25rem)] mt-4 block">
+					{description}
+				</span>
+			)}
+
+			{children}
+		</div>
 	);
 };
 
-export default HomePage;
+export default BasePage;

@@ -3,6 +3,7 @@
 import AboutPage from "@/components/pages/about";
 import HomePage from "@/components/pages/home";
 import PortfolioPage from "@/components/pages/portfolio";
+import ResumePage from "@/components/pages/resume";
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 			<HomePage />
 			<PortfolioPage />
 			<AboutPage />
+			<ResumePage />
 		</div>
 	);
 }
