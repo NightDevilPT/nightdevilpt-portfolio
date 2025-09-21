@@ -25,28 +25,9 @@
 		"title": "Check out my projects",
 		"project": [
 			{
-				"id": "nodge-workflow-automation",
 				"title": "Nodge - Visual Workflow Automation Platform",
-				"category": "fullstack",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-dashboard.png?alt=media&token=363143d1-5dea-4615-8ea3-0c431298f199",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow.png?alt=media&token=807fcde3-15c6-4966-989f-d1365846ba31",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow-2.png?alt=media&token=7f26f1e0-49bc-48d7-8d0a-9f1cf2a5f6e0",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-flow.png?alt=media&token=aca29dcf-2e17-4818-b1db-129c23c1baab",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-settings.png?alt=media&token=2d1d2c77-7d43-4944-b05a-a2cfc3082f89"
-				],
 				"description": "A sophisticated visual workflow automation platform that enables users to create custom workflows through node-based programming with secure credential management.",
 				"detailedDescription": "Developed a comprehensive full-stack workflow automation solution using Next.js with advanced visual programming capabilities. Implemented a node-based interface using React Flow, allowing users to drag-and-drop nodes and create complex workflows through visual connections. Built secure credential management system with Prisma ORM for database operations, enabling users to store and reuse sensitive data across workflows. Created authentication system with user registration/login and personalized workflow dashboards.",
-				"tech": [
-					"Next.js 14",
-					"React Flow",
-					"Prisma",
-					"PostgreSQL",
-					"Tailwind CSS",
-					"Shadcn/UI",
-					"NextAuth.js",
-					"TypeScript"
-				],
 				"features": [
 					"Visual node-based workflow editor",
 					"Drag-and-drop interface with React Flow",
@@ -59,37 +40,12 @@
 					"Database integration with Prisma",
 					"Export/import workflow capabilities"
 				],
-				"github": "https://github.com/NightDevilPT/nodge",
-				"live": "https://nightdevilpt-nodge.vercel.app",
-				"status": "in-progress",
-				"completionDate": "2024-03-15",
 				"role": "Full Stack Developer & System Architect"
 			},
 			{
-				"id": "mock-ai-interview-platform",
 				"title": "Mock AI Interview Platform - Full Stack",
-				"category": "fullstack",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-login.png?alt=media&token=add1adc1-ca3e-4c06-b0eb-154926a67bba",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-signup.png?alt=media&token=5ac85564-3bd3-4a5d-9e78-bfbb8e46900e",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-sessions.png?alt=media&token=bf4121ba-f710-4f76-96dc-4a713be39a8b",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-overview.png?alt=media&token=01a67077-1129-4388-b091-1463595b1c93",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-1.png?alt=media&token=e42d1514-3735-48d3-9685-58d30c086345",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-2.png?alt=media&token=54975be9-3dcf-4bc6-8b76-e851455ee9bd",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-3.png?alt=media&token=33f2ceeb-ee2d-45ca-82b0-77ee1dfaec9b",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-4.png?alt=media&token=242c5932-52bf-4d2a-b813-e514f052faac"
-				],
 				"description": "An AI-powered text-based interview simulation platform that generates adaptive questions and provides intelligent evaluations using advanced language models.",
 				"detailedDescription": "Engineered a comprehensive AI interview platform using Next.js, LangChain, and Gemini AI to revolutionize interview preparation. The system reduces interview preparation time by 75% and enables recruiters to evaluate twice as many candidates weekly. Implemented machine learning integration for adaptive question difficulty scaling and personalized candidate evaluation based on domain expertise. Supports multiple question types including technical, behavioral, and scenario-based assessments with real-time AI-powered feedback and scoring mechanisms.",
-				"tech": [
-					"Next.js",
-					"LangChain",
-					"Gemini AI",
-					"MongoDB",
-					"TypeScript",
-					"TailwindCSS",
-					"AI Integration"
-				],
 				"features": [
 					"AI-generated adaptive interview questions",
 					"Personalized difficulty scaling",
@@ -100,31 +56,12 @@
 					"Recruiter dashboard for candidate management",
 					"Secure authentication and session management"
 				],
-				"github": "https://github.com/yourusername/mock-interview-generator",
-				"live": "https://mock-ai-interview-seven.vercel.app/auth/login",
-				"status": "in-progress",
-				"completionDate": "2024-03-15",
 				"role": "Full Stack Developer & AI Integration Specialist"
 			},
 			{
-				"id": "package-showcase-platform",
 				"title": "My NPM Packages Showcase - Next.js",
-				"category": "frontend",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181408.png?alt=media&token=62dcf13f-3b08-45db-ab58-33e3fbf1c5f9",
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181423.png?alt=media&token=df8dee96-d81d-4379-873a-160d4cbbfd87"
-				],
 				"description": "A demonstration platform showcasing my published NPM packages with live examples, usage documentation, and interactive implementation previews.",
 				"detailedDescription": "Developed a clean, professional showcase platform using Next.js to demonstrate the functionality and real-world applications of my published NPM packages. The platform features live implementation examples, comprehensive usage documentation, and interactive component previews. Implemented performance optimization techniques including lazy loading and efficient bundle management, resulting in a 35% reduction in page load times and 20% improvement in user engagement. Each package includes installation guides, API documentation, and practical use cases to help developers understand and implement the solutions effectively.",
-				"tech": [
-					"Next.js",
-					"React",
-					"TailwindCSS",
-					"TypeScript",
-					"NPM Registry API",
-					"Performance Optimization",
-					"Vercel"
-				],
 				"features": [
 					"Live demonstrations of NPM packages",
 					"Interactive component previews",
@@ -135,30 +72,12 @@
 					"Search and filter functionality",
 					"Package statistics and download metrics"
 				],
-				"github": "https://github.com/NightDevilPT/package-showcase",
-				"live": "https://package-showcase.vercel.app/",
-				"status": "completed",
-				"completionDate": "2024-01-20",
 				"role": "Frontend Developer & Package Author"
 			},
 			{
-				"id": "cloudify-storage-provider",
 				"title": "Cloudify Storage Provider - Next.js Platform",
-				"category": "fullstack",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fstorage-provider.png?alt=media&token=86ee859d-23a7-4ea8-9033-a5aaed4a39c1"
-				],
 				"description": "A modern cloud storage solution built with Next.js, offering seamless file management, sharing capabilities, and real-time collaboration features.",
 				"detailedDescription": "Developed a comprehensive cloud storage platform frontend using Next.js with advanced file management capabilities. Implemented a responsive and intuitive user interface with Tailwind CSS and NextUI components. Utilized Redux for efficient global state management across complex file operations and user interactions. Deployed on Vercel for optimal performance and scalability, featuring drag-and-drop functionality, file previews, and secure sharing mechanisms.",
-				"tech": [
-					"Next.js 14",
-					"Redux Toolkit",
-					"TailwindCSS",
-					"NextUI",
-					"TypeScript",
-					"File Handling API",
-					"Vercel"
-				],
 				"features": [
 					"Real-time file synchronization",
 					"File sharing with permission controls",
@@ -167,28 +86,12 @@
 					"Secure file storage and management",
 					"User authentication and authorization"
 				],
-				"github": "https://github.com/NightDevilPT/file-system-client",
-				"live": "https://file-system-client.vercel.app/",
-				"status": "in-progress",
 				"role": "Full Stack Developer & UI/UX Designer"
 			},
 			{
-				"id": "gamies-frontend",
 				"title": "Gamies Gaming World - Next.js Frontend",
-				"category": "frontend",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fgamies.png?alt=media&token=9a9710bd-b1d5-42c0-ba85-f34e929de5f2"
-				],
 				"description": "A modern gaming platform frontend built with Next.js, featuring game discovery, user profiles, and interactive UI components with seamless state management.",
 				"detailedDescription": "Developed a comprehensive gaming frontend application deployed on Vercel using Next.js. Implemented responsive design with TailwindCSS and dynamic component library with NextUI. Managed complex application state using Redux and integrated with RAWG.io API for real-time game data fetching and filtering.",
-				"tech": [
-					"Next.js 14",
-					"Redux Toolkit",
-					"TailwindCSS",
-					"NextUI",
-					"TypeScript",
-					"RAWG.io API"
-				],
 				"features": [
 					"Responsive game catalog with search and filters",
 					"User authentication and profile management",
@@ -196,28 +99,12 @@
 					"Favorite games collection",
 					"Optimized performance with SSR and ISR"
 				],
-				"github": "https://github.com/NightDevilPT/gamies-nextjs",
-				"live": "https://gamies-nextjs.vercel.app/",
-				"status": "In progress"
+				"role": "Frontend Developer"
 			},
 			{
-				"id": "moviehub-entertainment-platform",
 				"title": "MovieHUB Entertainment Platform - Full Stack",
-				"category": "fullstack",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmoviehub.png?alt=media&token=2be223b6-5c36-4662-9952-5324698b40bd"
-				],
 				"description": "A comprehensive entertainment discovery platform featuring movies, TV shows, and celebrity information with personalized user experience and advanced customization options.",
 				"detailedDescription": "Developed a full-stack entertainment application using modern web technologies with seamless integration of TMDB API. Built a responsive and immersive user interface with extensive customization capabilities including theme switching, font family selection, and personalized content preferences. Implemented advanced search functionality, detailed media information pages, and user watchlist features with persistent data storage.",
-				"tech": [
-					"React",
-					"Node.js",
-					"TMDB API",
-					"CSS3",
-					"LocalStorage API",
-					"RESTful APIs",
-					"Vercel Deployment"
-				],
 				"features": [
 					"Comprehensive movie and TV show database",
 					"Advanced search with filters and categories",
@@ -228,28 +115,12 @@
 					"Responsive design across all devices",
 					"Real-time data fetching from TMDB API"
 				],
-				"github": "https://github.com/NightDevilPT/movie-hub",
-				"live": "https://movie-hub-git-main-nightdevilpt.vercel.app/",
-				"status": "completed",
 				"role": "Full Stack Developer & UI Designer"
 			},
 			{
-				"id": "job-desktop-dashboard",
 				"title": "Job Desktop Dashboard - React Interface",
-				"category": "frontend",
-				"images": [
-					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fdashboard.png?alt=media&token=bec0be0b-5568-42c1-a1fc-04a582db5205"
-				],
 				"description": "A modern desktop dashboard interface for job management with custom-built carousel components and intuitive user experience design.",
 				"detailedDescription": "Designed and developed a sophisticated desktop dashboard interface using ReactJS with a focus on performance and custom component implementation. Created a custom carousel system from scratch without relying on external libraries like Swiper.JS, demonstrating deep understanding of React hooks and DOM manipulation. Built a comprehensive job management dashboard with statistics visualization, task tracking, and user-friendly navigation system.",
-				"tech": [
-					"React.js",
-					"JavaScript (ES6+)",
-					"CSS3",
-					"Custom Hooks",
-					"DOM Manipulation",
-					"Vercel"
-				],
 				"features": [
 					"Custom-built carousel component without external libraries",
 					"Responsive desktop-first design approach",
@@ -260,29 +131,22 @@
 					"Performance-optimized rendering",
 					"Cross-browser compatibility"
 				],
-				"github": "https://github.com/NightDevilPT/dashboard-pc-design",
-				"live": "https://dashboard-pc-design-git-main-nightdevilpt.vercel.app/",
-				"status": "completed",
 				"role": "Frontend Developer & UI Designer"
 			}
 		]
 	},
-
 	"about": {
 		"about": "About",
 		"title": "Transforming ideas into scalable digital solutions",
 		"items": [
 			{
-				"title": "Happy Clients",
-				"value": 10
+				"title": "Happy Clients"
 			},
 			{
-				"title": "Years of Experience",
-				"value": 2
+				"title": "Years of Experience"
 			},
 			{
-				"title": "Projects Completed",
-				"value": 2
+				"title": "Projects Completed"
 			}
 		],
 		"descriptions": [
@@ -290,66 +154,27 @@
 			"My approach combines clean, maintainable code with cutting-edge technologies like Next.js, NestJS, and TypeScript. I believe in building solutions that not only meet current requirements but are also future-ready and easily scalable."
 		],
 		"personalDetails": [
-			{ "title": "Name", "value": "Pawan Kumar" },
-			{ "title": "Phone", "value": "+91-9540079162" },
-			{ "title": "Email", "value": "pawankumartadagsingh@gmail.com" },
-			{ "title": "Location", "value": "Delhi, India" }
+			{ "title": "Name" },
+			{ "title": "Phone" },
+			{ "title": "Email" },
+			{ "title": "Location" }
 		],
 		"services": [
 			{
 				"title": "Frontend Development",
-				"description": "Building responsive, interactive web applications using Next.js with TypeScript, styled with TailwindCSS and enhanced with ShadCN UI components. Expert in state management with Redux Toolkit and Context API, plus specialized libraries like ReactFlow for complex visualizations.",
-				"image": "",
-				"tags": [
-					"Next.js",
-					"React",
-					"TypeScript",
-					"TailwindCSS",
-					"ShadCN",
-					"Redux",
-					"ReactFlow"
-				]
+				"description": "Building responsive, interactive web applications using Next.js with TypeScript, styled with TailwindCSS and enhanced with ShadCN UI components. Expert in state management with Redux Toolkit and Context API, plus specialized libraries like ReactFlow for complex visualizations."
 			},
 			{
 				"title": "Backend Development",
-				"description": "Developing robust APIs and server-side applications using NestJS with TypeScript. Experienced in database design, authentication systems, microservices architecture, and implementing scalable backend solutions with proper error handling and security measures.",
-				"image": "",
-				"tags": [
-					"NestJS",
-					"Node.js",
-					"TypeScript",
-					"REST APIs",
-					"GraphQL",
-					"PostgreSQL",
-					"MongoDB",
-					"Design Patterns"
-				]
+				"description": "Developing robust APIs and server-side applications using NestJS with TypeScript. Experienced in database design, authentication systems, microservices architecture, and implementing scalable backend solutions with proper error handling and security measures."
 			},
 			{
 				"title": "Full Stack Solutions",
-				"description": "End-to-end application development combining modern frontend frameworks with powerful backend systems. Specializing in creating seamless integrations, optimized performance, and maintainable codebases with proper testing and deployment strategies.",
-				"image": "",
-				"tags": [
-					"Full Stack",
-					"System Design",
-					"Database Design",
-					"DevOps",
-					"Testing",
-					"Deployment"
-				]
+				"description": "End-to-end application development combining modern frontend frameworks with powerful backend systems. Specializing in creating seamless integrations, optimized performance, and maintainable codebases with proper testing and deployment strategies."
 			},
 			{
 				"title": "UI/UX Implementation",
-				"description": "Converting design mockups into pixel-perfect, responsive interfaces with smooth animations and optimal user experience. Focus on accessibility, performance optimization, and cross-browser compatibility using modern CSS techniques and component libraries.",
-				"image": "",
-				"tags": [
-					"Design to Code",
-					"Responsive Design",
-					"UI/UX",
-					"Animations",
-					"Performance",
-					"Accessibility"
-				]
+				"description": "Converting design mockups into pixel-perfect, responsive interfaces with smooth animations and optimal user experience. Focus on accessibility, performance optimization, and cross-browser compatibility using modern CSS techniques and component libraries."
 			}
 		],
 		"highlights": [
@@ -361,7 +186,6 @@
 			"Passionate about continuous learning and staying updated with latest technologies"
 		]
 	},
-
 	"resume": {
 		"resume": "Resume",
 		"title": "Education & Professional Journey",
@@ -372,27 +196,18 @@
 		"educations": [
 			{
 				"title": "Bachelor of Vocation in Software Development",
-				"timeline": "2019-2022",
 				"courseBy": "Guru Gobind Singh Indraprastha University",
-				"description": "Specialized in software development with emphasis on web technologies, system architecture, and data structures & algorithms.",
-				"grade": "CGPA: 9.16/10",
-				"place": "Delhi, India"
+				"description": "Specialized in software development with emphasis on web technologies, system architecture, and data structures & algorithms."
 			},
 			{
 				"title": "Senior Secondary (12th) - Arts Stream",
-				"timeline": "2017-2018",
 				"courseBy": "National Institute of Open Schooling (NIOS)",
-				"description": "Focused on Economics, Hindi, Geography, English, History, and Political Science, developing strong analytical and social science perspectives.",
-				"grade": "Percentage: 65%",
-				"place": "Delhi, India"
+				"description": "Focused on Economics, Hindi, Geography, English, History, and Political Science, developing strong analytical and social science perspectives."
 			},
 			{
 				"title": "Secondary (10th)",
-				"timeline": "2014-2015",
 				"courseBy": "Central Board of Secondary Education (CBSE)",
-				"description": "Completed foundational education with a focus on core subjects, fostering overall academic and personal development.",
-				"grade": "CGPA: 9/10",
-				"place": "Delhi, India"
+				"description": "Completed foundational education with a focus on core subjects, fostering overall academic and personal development."
 			}
 		],
 		"myExperience": "Professional Experience",
@@ -400,153 +215,93 @@
 		"experiences": [
 			{
 				"title": "Software Developer",
-				"company": "Charm AI Technologies Pvt. Ltd",
-				"timeline": "Mar 2025 - Sep 2025",
-				"place": "On-Site, Delhi, India",
 				"description": "Contributed to the development of a scalable warranty management system, enhancing enterprise workflows with role-based access and partner integrations.",
 				"responsibilities": [
 					"Engineered a multi-tenant SaaS platform for 10+ enterprise clients, enhancing scalability and modularity.",
 					"Designed and implemented a role-based access control (RBAC) system, reducing security incidents by 85% and supporting 50+ role configurations.",
 					"Enhanced the admin dashboard and onboarding workflows, reducing configuration time by 40%.",
 					"Streamlined partner and dealer onboarding processes, reducing setup time by 50% and empowering 100+ partners to manage workflows independently."
-				],
-				"techStack": [
-					"React.js",
-					"Next.js",
-					"NestJS",
-					"TypeScript",
-					"Node.js",
-					"PostgreSQL",
-					"GraphQL",
-					"AWS"
 				]
 			},
 			{
 				"title": "Software Developer",
-				"company": "Misemind Technology Private Limited",
-				"timeline": "Sep 2023 - Feb 2025",
-				"place": "On-Site, Delhi, India",
 				"description": "Led the development of a tracking management system, delivering real-time analytics, geofencing, and scalable backend APIs.",
 				"responsibilities": [
 					"Developed a responsive web application using Angular, improving load times by 40% for 2,000+ daily users.",
 					"Architected and optimized REST APIs with FastAPI, efficiently handling 5,000+ daily requests.",
 					"Integrated OpenSearch for real-time analytics, improving query performance and system responsiveness by 30%.",
 					"Implemented geofencing with Leaflet.js and Elasticsearch, enabling real-time GPS tracking with 25% faster data retrieval."
-				],
-				"techStack": [
-					"Angular",
-					"FastAPI",
-					"Python",
-					"Leaflet.js",
-					"Elasticsearch",
-					"OpenSearch",
-					"MySQL",
-					"Docker"
 				]
 			}
 		],
 		"myFavouriteToolsAndLibs": "My favourite tools and libs",
-
 		"toolsAndLibs": [
 			{
 				"title": "HTML5",
-				"description": "Proficient in creating structured web pages.",
-				"link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-				"iconName": "FaHtml5"
+				"description": "Proficient in creating structured web pages."
 			},
 			{
 				"title": "CSS",
-				"description": "Skilled in responsive design with TailwindCSS.",
-				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-				"iconName": "FaCss3Alt"
+				"description": "Skilled in responsive design with TailwindCSS."
 			},
 			{
 				"title": "JavaScript",
-				"description": "Experienced in dynamic web applications.",
-				"link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-				"iconName": "FaJsSquare"
+				"description": "Experienced in dynamic web applications."
 			},
 			{
 				"title": "React.js",
-				"description": "Expert in building interactive UIs.",
-				"link": "https://reactjs.org/",
-				"iconName": "SiReact"
+				"description": "Expert in building interactive UIs."
 			},
 			{
 				"title": "Next.js",
-				"description": "Specialized in SSR and SSG apps.",
-				"link": "https://nextjs.org/",
-				"iconName": "RiNextjsFill"
+				"description": "Specialized in SSR and SSG apps."
 			},
 			{
 				"title": "NestJS",
-				"description": "Proficient in scalable backend solutions.",
-				"link": "https://nestjs.com/",
-				"iconName": "SiNestjs"
+				"description": "Proficient in scalable backend solutions."
 			},
 			{
 				"title": "Angular",
-				"description": "Skilled in robust frontend frameworks.",
-				"link": "https://angular.io/",
-				"iconName": "SiAngular"
+				"description": "Skilled in robust frontend frameworks."
 			},
 			{
 				"title": "TypeScript",
-				"description": "Expert in static typing for JS.",
-				"link": "https://www.typescriptlang.org/",
-				"iconName": "BiLogoTypescript"
+				"description": "Expert in static typing for JS."
 			},
 			{
 				"title": "Prisma",
-				"description": "Proficient in type-safe ORM.",
-				"link": "https://www.prisma.io/",
-				"iconName": "SiPrisma"
+				"description": "Proficient in type-safe ORM."
 			},
 			{
 				"title": "MongoDB",
-				"description": "Experienced with NoSQL databases.",
-				"link": "https://www.mongodb.com/",
-				"iconName": "SiMongodb"
+				"description": "Experienced with NoSQL databases."
 			},
 			{
 				"title": "PostgreSQL",
-				"description": "Skilled in relational databases.",
-				"link": "https://www.postgresql.org/",
-				"iconName": "BiLogoPostgresql"
+				"description": "Skilled in relational databases."
 			},
 			{
 				"title": "Strapi",
-				"description": "Proficient in headless CMS.",
-				"link": "https://strapi.io/",
-				"iconName": "SiStrapi"
+				"description": "Proficient in headless CMS."
 			},
 			{
 				"title": "FastAPI",
-				"description": "Experienced in high-performance APIs.",
-				"link": "https://fastapi.tiangolo.com/",
-				"iconName": "SiFastapi"
+				"description": "Experienced in high-performance APIs."
 			},
 			{
 				"title": "Docker",
-				"description": "Skilled in containerization.",
-				"link": "https://www.docker.com/",
-				"iconName": "SiDocker"
+				"description": "Skilled in containerization."
 			},
 			{
 				"title": "Stripe",
-				"description": "Experienced in payment integrations.",
-				"link": "https://stripe.com/",
-				"iconName": "FaCcStripe"
+				"description": "Experienced in payment integrations."
 			},
 			{
 				"title": "AI Tools",
-				"description": "Utilize AI IDEs for enhanced coding.",
-				"link": "https://cursor.sh/",
-				"iconName": "FaBrain"
+				"description": "Utilize AI IDEs for enhanced coding."
 			}
 		]
 	},
-
 	"contact": {
 		"contact": "Contact",
 		"title": "Let's make something awesome together!",
@@ -561,17 +316,49 @@
 		},
 		"footer": [
 			{
-				"title": "location",
-				"value": "Delhi, India"
+				"title": "location"
 			},
 			{
-				"title": "Phone",
-				"value": "+91-9540079162"
+				"title": "Phone"
 			},
 			{
-				"title": "Email",
-				"value": "pawankumartadagsingh@gmail.com"
+				"title": "Email"
 			}
 		]
+	},
+	"setting": {
+		"title": "Settings",
+		"theme": "Theme",
+		"themeMode": "Theme Mode",
+		"colorScheme": "Color Scheme",
+		"currentTheme": "Current theme",
+		"language": "Language",
+		"selectLanguage": "Select Language",
+		"preferences": "Preferences",
+		"animations": "Animations",
+		"fontSize": "Font Size",
+		"reset": "Reset to Defaults",
+		"apply": "Apply Changes",
+		"languageNote": "More languages will be available in future updates.",
+		"light": "Light",
+		"dark": "Dark",
+		"system": "System",
+		"default": "Default",
+		"blue": "Blue",
+		"green": "Green",
+		"violet": "Violet",
+		"orange": "Orange",
+		"red": "Red",
+		"rose": "Rose",
+		"yellow": "Yellow",
+		"english": "English",
+		"french": "French",
+		"spanish": "Spanish",
+		"german": "German",
+		"enabled": "Enabled",
+		"disabled": "Disabled",
+		"small": "Small",
+		"medium": "Medium",
+		"large": "Large"
 	}
 }

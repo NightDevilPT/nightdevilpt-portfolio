@@ -20,6 +20,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import ProjectDetailDialog from "./project-details-view";
+import SpotlightCard from "@/components/ui/SpotlightCard";
 import { getCategoryColor, getStatusColor } from "@/lib/utils";
 import { ExternalLink, Github, User, ImageIcon } from "lucide-react";
 
@@ -165,8 +166,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 	);
 
 	return (
-		<>
-			<Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 group bg-card/50 backdrop-blur-sm border-border/50">
+		<SpotlightCard className="w-auto h-auto !bg-transparent backdrop-blur-2xl !p-0 !m-0">
+			<Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 group bg-card/50 backdrop-blur-sm border-border/50 p-0 pb-6 pt-1">
 				{/* Project Image Gallery */}
 				<div className="relative w-full p-4 pb-0">
 					{renderImageCarousel()}
@@ -213,7 +214,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 			</Card>
 
 			{/* Project Detail Modal */}
-		</>
+		</SpotlightCard>
 	);
 };
 

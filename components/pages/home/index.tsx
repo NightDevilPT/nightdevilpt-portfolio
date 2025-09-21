@@ -19,6 +19,7 @@ const HomePage: React.FC = () => {
 				<AnimatedButton
 					label={dictionary?.home?.myWork || "My Work"}
 					icon={<LayoutDashboard />}
+					className="!text-foreground hover:!text-primary-foreground"
 				/>
 				<AnimatedButton
 					label={dictionary?.home?.downloadCV || "Download CV"}

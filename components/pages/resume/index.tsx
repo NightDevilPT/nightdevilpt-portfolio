@@ -10,7 +10,6 @@ import {
 	SiFastapi,
 	SiDocker,
 } from "react-icons/si";
-import LogoLoop from "@/components/LogoLoop";
 import {
 	FaBrain,
 	FaCcStripe,
@@ -20,6 +19,7 @@ import {
 } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import React, { ElementType } from "react";
+import LogoLoop from "@/components/ui/LogoLoop";
 import BasePage from "@/components/shared/base-page";
 import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import EducationCard, { EducationItem } from "./_components/education-card";

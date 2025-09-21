@@ -1,0 +1,351 @@
+{
+	"portfolio": {
+		"project": [
+			{
+				"id": "nodge-workflow-automation",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-dashboard.png?alt=media&token=363143d1-5dea-4615-8ea3-0c431298f199",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow.png?alt=media&token=807fcde3-15c6-4966-989f-d1365846ba31",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-workflow-2.png?alt=media&token=7f26f1e0-49bc-48d7-8d0a-9f1cf2a5f6e0",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-flow.png?alt=media&token=aca29dcf-2e17-4818-b1db-129c23c1baab",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fnodge%2Fnodge-settings.png?alt=media&token=2d1d2c77-7d43-4944-b05a-a2cfc3082f89"
+				],
+				"tech": [
+					"Next.js 14",
+					"React Flow",
+					"Prisma",
+					"PostgreSQL",
+					"Tailwind CSS",
+					"Shadcn/UI",
+					"NextAuth.js",
+					"TypeScript"
+				],
+				"github": "https://github.com/NightDevilPT/nodge",
+				"live": "https://nightdevilpt-nodge.vercel.app",
+				"status": "in-progress",
+				"completionDate": "2024-03-15"
+			},
+			{
+				"id": "mock-ai-interview-platform",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-login.png?alt=media&token=add1adc1-ca3e-4c06-b0eb-154926a67bba",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-signup.png?alt=media&token=5ac85564-3bd3-4a5d-9e78-bfbb8e46900e",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-sessions.png?alt=media&token=bf4121ba-f710-4f76-96dc-4a713be39a8b",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-overview.png?alt=media&token=01a67077-1129-4388-b091-1463595b1c93",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-1.png?alt=media&token=e42d1514-3735-48d3-9685-58d30c086345",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-2.png?alt=media&token=54975be9-3dcf-4bc6-8b76-e851455ee9bd",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-3.png?alt=media&token=33f2ceeb-ee2d-45ca-82b0-77ee1dfaec9b",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmock%2Fmock-ai-que-4.png?alt=media&token=242c5932-52bf-4d2a-b813-e514f052faac"
+				],
+				"tech": [
+					"Next.js",
+					"LangChain",
+					"Gemini AI",
+					"MongoDB",
+					"TypeScript",
+					"TailwindCSS",
+					"AI Integration"
+				],
+				"github": "https://github.com/yourusername/mock-interview-generator",
+				"live": "https://mock-ai-interview-seven.vercel.app/auth/login",
+				"status": "in-progress",
+				"completionDate": "2024-03-15"
+			},
+			{
+				"id": "package-showcase-platform",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181408.png?alt=media&token=62dcf13f-3b08-45db-ab58-33e3fbf1c5f9",
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fpackage-demo%2FScreenshot%202025-09-20%20181423.png?alt=media&token=df8dee96-d81d-4379-873a-160d4cbbfd87"
+				],
+				"tech": [
+					"Next.js",
+					"React",
+					"TailwindCSS",
+					"TypeScript",
+					"NPM Registry API",
+					"Performance Optimization",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/package-showcase",
+				"live": "https://package-showcase.vercel.app/",
+				"status": "completed",
+				"completionDate": "2024-01-20"
+			},
+			{
+				"id": "cloudify-storage-provider",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fstorage-provider.png?alt=media&token=86ee859d-23a7-4ea8-9033-a5aaed4a39c1"
+				],
+				"tech": [
+					"Next.js 14",
+					"Redux Toolkit",
+					"TailwindCSS",
+					"NextUI",
+					"TypeScript",
+					"File Handling API",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/file-system-client",
+				"live": "https://file-system-client.vercel.app/",
+				"status": "in-progress"
+			},
+			{
+				"id": "gamies-frontend",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fgamies.png?alt=media&token=9a9710bd-b1d5-42c0-ba85-f34e929de5f2"
+				],
+				"tech": [
+					"Next.js 14",
+					"Redux Toolkit",
+					"TailwindCSS",
+					"NextUI",
+					"TypeScript",
+					"RAWG.io API"
+				],
+				"github": "https://github.com/NightDevilPT/gamies-nextjs",
+				"live": "https://gamies-nextjs.vercel.app/",
+				"status": "in-progress"
+			},
+			{
+				"id": "moviehub-entertainment-platform",
+				"category": "fullstack",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fmoviehub.png?alt=media&token=2be223b6-5c36-4662-9952-5324698b40bd"
+				],
+				"tech": [
+					"React",
+					"Node.js",
+					"TMDB API",
+					"CSS3",
+					"LocalStorage API",
+					"RESTful APIs",
+					"Vercel Deployment"
+				],
+				"github": "https://github.com/NightDevilPT/movie-hub",
+				"live": "https://movie-hub-git-main-nightdevilpt.vercel.app/",
+				"status": "completed"
+			},
+			{
+				"id": "job-desktop-dashboard",
+				"category": "frontend",
+				"images": [
+					"https://firebasestorage.googleapis.com/v0/b/file-system-e3b65.appspot.com/o/file-storage-avtar%2Fdashboard.png?alt=media&token=bec0be0b-5568-42c1-a1fc-04a582db5205"
+				],
+				"tech": [
+					"React.js",
+					"JavaScript (ES6+)",
+					"CSS3",
+					"Custom Hooks",
+					"DOM Manipulation",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/dashboard-pc-design",
+				"live": "https://dashboard-pc-design-git-main-nightdevilpt.vercel.app/",
+				"status": "completed"
+			}
+		]
+	},
+	"about": {
+		"items": [
+			{
+				"value": 10
+			},
+			{
+				"value": 2
+			},
+			{
+				"value": 2
+			}
+		],
+		"personalDetails": [
+			{ "value": "Pawan Kumar" },
+			{ "value": "+91-9540079162" },
+			{ "value": "pawankumartadagsingh@gmail.com" },
+			{ "value": "Delhi, India" }
+		],
+		"services": [
+			{
+				"image": "",
+				"tags": [
+					"Next.js",
+					"React",
+					"TypeScript",
+					"TailwindCSS",
+					"ShadCN",
+					"Redux",
+					"ReactFlow"
+				]
+			},
+			{
+				"image": "",
+				"tags": [
+					"NestJS",
+					"Node.js",
+					"TypeScript",
+					"REST APIs",
+					"GraphQL",
+					"PostgreSQL",
+					"MongoDB",
+					"Design Patterns"
+				]
+			},
+			{
+				"image": "",
+				"tags": [
+					"Full Stack",
+					"System Design",
+					"Database Design",
+					"DevOps",
+					"Testing",
+					"Deployment"
+				]
+			},
+			{
+				"image": "",
+				"tags": [
+					"Design to Code",
+					"Responsive Design",
+					"UI/UX",
+					"Animations",
+					"Performance",
+					"Accessibility"
+				]
+			}
+		]
+	},
+	"resume": {
+		"educations": [
+			{
+				"timeline": "2019-2022",
+				"grade": "CGPA: 9.16/10",
+				"place": "Delhi, India"
+			},
+			{
+				"timeline": "2017-2018",
+				"grade": "Percentage: 65%",
+				"place": "Delhi, India"
+			},
+			{
+				"timeline": "2014-2015",
+				"grade": "CGPA: 9/10",
+				"place": "Delhi, India"
+			}
+		],
+		"experiences": [
+			{
+				"company": "Charm AI Technologies Pvt. Ltd",
+				"timeline": "Mar 2025 - Sep 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"React.js",
+					"Next.js",
+					"NestJS",
+					"TypeScript",
+					"Node.js",
+					"PostgreSQL",
+					"GraphQL",
+					"AWS"
+				]
+			},
+			{
+				"company": "Misemind Technology Private Limited",
+				"timeline": "Sep 2023 - Feb 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"Angular",
+					"FastAPI",
+					"Python",
+					"Leaflet.js",
+					"Elasticsearch",
+					"OpenSearch",
+					"MySQL",
+					"Docker"
+				]
+			}
+		],
+		"toolsAndLibs": [
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+				"iconName": "FaHtml5"
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+				"iconName": "FaCss3Alt"
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				"iconName": "FaJsSquare"
+			},
+			{
+				"link": "https://reactjs.org/",
+				"iconName": "SiReact"
+			},
+			{
+				"link": "https://nextjs.org/",
+				"iconName": "RiNextjsFill"
+			},
+			{
+				"link": "https://nestjs.com/",
+				"iconName": "SiNestjs"
+			},
+			{
+				"link": "https://angular.io/",
+				"iconName": "SiAngular"
+			},
+			{
+				"link": "https://www.typescriptlang.org/",
+				"iconName": "BiLogoTypescript"
+			},
+			{
+				"link": "https://www.prisma.io/",
+				"iconName": "SiPrisma"
+			},
+			{
+				"link": "https://www.mongodb.com/",
+				"iconName": "SiMongodb"
+			},
+			{
+				"link": "https://www.postgresql.org/",
+				"iconName": "BiLogoPostgresql"
+			},
+			{
+				"link": "https://strapi.io/",
+				"iconName": "SiStrapi"
+			},
+			{
+				"link": "https://fastapi.tiangolo.com/",
+				"iconName": "SiFastapi"
+			},
+			{
+				"link": "https://www.docker.com/",
+				"iconName": "SiDocker"
+			},
+			{
+				"link": "https://stripe.com/",
+				"iconName": "FaCcStripe"
+			},
+			{
+				"link": "https://cursor.sh/",
+				"iconName": "FaBrain"
+			}
+		]
+	},
+	"contact": {
+		"footer": [
+			{
+				"value": "Delhi, India"
+			},
+			{
+				"value": "+91-9540079162"
+			},
+			{
+				"value": "pawankumartadagsingh@gmail.com"
+			}
+		]
+	}
+}

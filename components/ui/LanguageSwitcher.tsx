@@ -14,8 +14,8 @@ import {
 	CommandItem,
 	CommandList,
 } from "@/components/ui/command";
-import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Check, ChevronDown, Globe } from "lucide-react";
 import { ILanguage, useLanguage } from "../providers/context/language-context";
@@ -23,22 +23,33 @@ import { ILanguage, useLanguage } from "../providers/context/language-context";
 // Define supported languages with their metadata
 const SUPPORTED_LANGUAGES = {
 	[ILanguage.EN]: {
-		name: "English",
-		flag: "🇺🇸",
-		nativeName: "English",
+	  name: "English",
+	  flag: "🇺🇸",
+	  nativeName: "English",
 	},
-	// Add more languages as needed:
-	// [ILanguage.FR]: {
-	//   name: "French",
-	//   flag: "🇫🇷",
-	//   nativeName: "Français",
-	// },
-	// [ILanguage.ES]: {
-	//   name: "Spanish",
-	//   flag: "🇪🇸",
-	//   nativeName: "Español",
-	// },
-} as const;
+	[ILanguage.FR]: {
+	  name: "French",
+	  flag: "🇫🇷",
+	  nativeName: "Français",
+	},
+	[ILanguage.ES]: {
+	  name: "Spanish",
+	  flag: "🇪🇸",
+	  nativeName: "Español",
+	},
+	// Japanese
+	[ILanguage.JA]: {
+	  name: "Japanese",
+	  flag: "🇯🇵",            // JP flag; may display as “JP” on some platforms
+	  nativeName: "日本語",     // Nihongo
+	},
+	[ILanguage.DE]: {
+	  name: "German",
+	  flag: "🇩🇪",
+	  nativeName: "Deutsch"
+	}
+  } as const;
+  
 
 interface LanguageSwitcherProps {
 	variant?: "default" | "outline" | "ghost" | "link";

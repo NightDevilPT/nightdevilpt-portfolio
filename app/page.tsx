@@ -1,10 +1,11 @@
 "use client";
 
-import AboutPage from "@/components/pages/about";
-import ContactPage from "@/components/pages/contact";
 import HomePage from "@/components/pages/home";
-import PortfolioPage from "@/components/pages/portfolio";
+import AboutPage from "@/components/pages/about";
 import ResumePage from "@/components/pages/resume";
+import ContactPage from "@/components/pages/contact";
+import PortfolioPage from "@/components/pages/portfolio";
+import { SettingPage } from "@/components/pages/settings";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<AboutPage />
 			<ResumePage />
 			<ContactPage />
+			<SettingPage />
 		</div>
 	);
 }

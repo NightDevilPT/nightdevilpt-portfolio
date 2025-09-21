@@ -1,9 +1,3 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Bug, BugPlay, CodeXml } from "lucide-react";
-import { Separator } from "@/components/ui/separator";
-import RotatingIcon from "@/components/ui/RotatingIcon";
-import SpotlightCard from "@/components/ui/SpotlightCard";
 import {
 	FaCode,
 	FaGithub,
@@ -11,9 +5,15 @@ import {
 	FaLinkedin,
 	FaYoutube,
 } from "react-icons/fa";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Bug, BugPlay, CodeXml } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
+import RotatingIcon from "@/components/ui/RotatingIcon";
+import SpotlightCard from "@/components/ui/SpotlightCard";
 import { useLanguage } from "@/components/providers/context/language-context";
 
-const SocialMedias = [
+export const SocialMedias = [
 	{ link: "#", icon: FaGithub },
 	{ link: "#", icon: FaCode },
 	{ link: "#", icon: FaLinkedin },
@@ -33,7 +33,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ title, description }) => (
 	</div>
 );
 
-const ProfileHeader: React.FC<{ name: string; title: string }> = ({
+export const ProfileHeader: React.FC<{ name: string; title: string }> = ({
 	name,
 	title,
 }) => (
@@ -56,7 +56,7 @@ const ProfileHeader: React.FC<{ name: string; title: string }> = ({
 	</div>
 );
 
-const SocialIcons: React.FC = () => (
+export const SocialIcons: React.FC = () => (
 	<div className="flex justify-start items-center gap-3 w-full">
 		{SocialMedias.map((item, index) => (
 			<div

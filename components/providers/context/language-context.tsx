@@ -8,9 +8,10 @@ import { getDictionary } from "@/i18n";
 export enum ILanguage {
 	EN = "en",
 	// Add more languages as needed
-	// FR = "fr",
-	// ES = "es",
-	// DE = "de",
+	FR = "fr",
+	ES = "es",
+	JA = "ja",
+	DE = "de",
 }
 
 // Define the dictionary type based on your JSON structure
@@ -62,7 +63,7 @@ function LanguageProvider({
 		const loadDictionary = async () => {
 			setIsLoading(true);
 			try {
-				const dict = await getDictionary(language);
+				const dict = await getDictionary(language as any);
 				setDictionary(dict);
 			} catch (error) {
 				console.error("Failed to load dictionary:", error);
