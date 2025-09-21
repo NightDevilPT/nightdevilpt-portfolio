@@ -5,6 +5,10 @@ import {
 	FaLinkedin,
 	FaYoutube,
 } from "react-icons/fa";
+import {
+	IThemeMode,
+	useTheme,
+} from "@/components/providers/context/theme-context";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Bug, BugPlay, CodeXml } from "lucide-react";
@@ -71,11 +75,14 @@ export const SocialIcons: React.FC = () => (
 
 export const SideBarContent: React.FC = () => {
 	const { dictionary } = useLanguage();
+	const { themeMode } = useTheme();
 
 	return (
 		<>
 			{/* Large screens (lg and above) */}
-			<SpotlightCard className="w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-1 gap-4 max-w-[500px] max-xl:hidden max-md:grid">
+			<SpotlightCard className={`w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-1 gap-4 max-w-[500px] max-xl:hidden max-md:grid ${
+				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+			}`}>
 				<ProfileHeader
 					name={dictionary?.general?.pawanKumar}
 					title={dictionary?.general?.softwareEngineer}
@@ -102,7 +109,11 @@ export const SideBarContent: React.FC = () => {
 			</SpotlightCard>
 
 			{/* Medium screens (md to lg) */}
-			<SpotlightCard className="w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-[250px_1px_1fr] gap-4 xl:hidden max-md:hidden">
+			<SpotlightCard
+				className={`w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-[250px_1px_1fr] gap-4 xl:hidden max-md:hidden ${
+					themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+				}`}
+			>
 				<div className="grid grid-cols-1 gap-5">
 					<div className="relative rounded-xl overflow-hidden w-full aspect-square">
 						<Image src="/avatar.jpg" alt="avatar" fill />

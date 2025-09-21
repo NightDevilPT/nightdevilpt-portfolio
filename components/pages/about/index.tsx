@@ -9,6 +9,7 @@ import SpotlightCard from "@/components/ui/SpotlightCard";
 import { Download, Code, Server, Cpu, Palette } from "lucide-react";
 import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
+import { IThemeMode, useTheme } from "@/components/providers/context/theme-context";
 
 interface ServiceItem {
 	title: string;
@@ -26,11 +27,14 @@ const SERVICE_ICONS = {
 
 const AboutPage: React.FC = () => {
 	const { dictionary } = useLanguage();
+	const { themeMode } = useTheme();
 
 	const renderStatisticCard = (item: IBaseItem, index: number) => (
 		<SpotlightCard
 			key={`stat-${item.title}-${index}`}
-			className="bg-transparent flex justify-center items-center flex-col p-6 min-h-[160px] group"
+			className={`bg-transparent flex justify-center items-center flex-col p-6 min-h-[160px] group ${
+				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+			}`}
 		>
 			<h2 className="text-6xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">
 				{item.value}+
@@ -71,7 +75,9 @@ const AboutPage: React.FC = () => {
 		return (
 			<SpotlightCard
 				key={`service-${service.title}-${index}`}
-				className="p-6 h-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 group"
+				className={`p-6 h-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 group  ${
+					themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+				}`}
 			>
 				<div className="flex flex-col h-full">
 					<div className="flex items-start gap-4 mb-4">

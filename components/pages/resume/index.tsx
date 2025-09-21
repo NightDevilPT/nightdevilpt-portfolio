@@ -67,8 +67,7 @@ const ResumePage: React.FC = () => {
 						{dictionary?.resume?.myEducation || "Education"}
 					</h2>
 					<p className="text-xl">
-						{dictionary?.resume?.educationDescription ||
-							"An overview of my academic qualifications and learning journey."}
+						{dictionary?.resume?.educationDescription}
 					</p>
 					<div className="relative mt-5 flex flex-col gap-4">
 						{dictionary?.resume?.educations?.map(

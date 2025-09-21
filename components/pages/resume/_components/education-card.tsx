@@ -1,5 +1,9 @@
 "use client";
 
+import {
+	IThemeMode,
+	useTheme,
+} from "@/components/providers/context/theme-context";
 import React from "react";
 import { TiStarFullOutline } from "react-icons/ti";
 import SpotlightCard from "@/components/ui/SpotlightCard";
@@ -20,6 +24,7 @@ interface Props {
 }
 
 const EducationCard: React.FC<Props> = ({ education, index, total }) => {
+	const { themeMode } = useTheme();
 	return (
 		<div
 			key={`education-${education.title}-${index}`}
@@ -36,7 +41,11 @@ const EducationCard: React.FC<Props> = ({ education, index, total }) => {
 			</div>
 
 			{/* Education Content */}
-			<SpotlightCard className="p-6 w-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 mb-4">
+			<SpotlightCard
+				className={`p-6 w-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 mb-4 ${
+					themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+				}`}
+			>
 				<div className="flex flex-col">
 					<h3 className="text-xl font-semibold text-primary mb-2 group-hover:text-primary/80 transition-colors">
 						{education.title}

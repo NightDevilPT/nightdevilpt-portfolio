@@ -6,9 +6,11 @@ import { IBaseItem } from "@/interface/base.interface";
 import SpotlightCard from "@/components/ui/SpotlightCard";
 import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
+import { IThemeMode, useTheme } from "@/components/providers/context/theme-context";
 
 const ContactPage: React.FC = () => {
 	const { dictionary } = useLanguage();
+	const { themeMode } = useTheme();
 
 	const renderPersonalDetailItem = (detail: IBaseItem, index: number) => (
 		<div
@@ -31,7 +33,9 @@ const ContactPage: React.FC = () => {
 			<p className="text-xl leading-relaxed">
 				{dictionary?.contact?.description}
 			</p>
-			<SpotlightCard className="bg-transparent backdrop-blur-xl mt-12 mb-20">
+			<SpotlightCard className={`bg-transparent backdrop-blur-xl mt-12 mb-20 ${
+				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+			}`}>
 				<form className="w-full h-auto">
 					<div className="grid grid-cols-2 gap-8 ">
 						<input

@@ -23,6 +23,7 @@ import ProjectDetailDialog from "./project-details-view";
 import SpotlightCard from "@/components/ui/SpotlightCard";
 import { getCategoryColor, getStatusColor } from "@/lib/utils";
 import { ExternalLink, Github, User, ImageIcon } from "lucide-react";
+import { IThemeMode, useTheme } from "@/components/providers/context/theme-context";
 
 interface ProjectCardProps {
 	project: Project;
@@ -30,6 +31,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 	const [isDialogOpen, setIsDialogOpen] = useState(false);
+	const {themeMode} = useTheme();
 
 	// Initialize autoplay plugin for carousel
 	const autoplayPlugin = React.useRef(
@@ -166,8 +168,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 	);
 
 	return (
-		<SpotlightCard className="w-auto h-auto !bg-transparent backdrop-blur-2xl !p-0 !m-0">
-			<Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 group bg-card/50 backdrop-blur-sm border-border/50 p-0 pb-6 pt-1">
+		<SpotlightCard className={`w-auto h-auto !bg-transparent backdrop-blur-2xl !p-0 !m-0 ${themeMode===IThemeMode.LIGHT ? "!border-gray-200": ""}`}>
+			<Card className="h-full flex flex-col overflow-hidden hover:shadow-lg transition-all duration-300 group bg-card/50 border-none backdrop-blur-sm p-0 pb-6 pt-1">
 				{/* Project Image Gallery */}
 				<div className="relative w-full p-4 pb-0">
 					{renderImageCarousel()}

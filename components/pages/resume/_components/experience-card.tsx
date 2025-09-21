@@ -3,6 +3,7 @@
 import React from "react";
 import { TiStarFullOutline } from "react-icons/ti";
 import SpotlightCard from "@/components/ui/SpotlightCard";
+import { IThemeMode, useTheme } from "@/components/providers/context/theme-context";
 
 export interface ExperienceItem {
 	title: string;
@@ -21,6 +22,7 @@ interface Props {
 }
 
 const ExperienceCard: React.FC<Props> = ({ experience, index, total }) => {
+	const { themeMode } = useTheme();
 	return (
 		<div
 			key={`experience-${experience.title}-${index}`}
@@ -37,7 +39,9 @@ const ExperienceCard: React.FC<Props> = ({ experience, index, total }) => {
 			</div>
 
 			{/* Experience Content */}
-			<SpotlightCard className="p-6 w-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 mb-4">
+			<SpotlightCard className={`p-6 w-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 mb-4 ${
+				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+			}`}>
 				<div className="flex flex-col">
 					<h3 className="text-xl font-semibold text-primary mb-2 group-hover:text-primary/80 transition-colors">
 						{experience.title}
