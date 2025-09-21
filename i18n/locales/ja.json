@@ -12,7 +12,8 @@
 			"title": "拠点",
 			"description": "インド、デリー"
 		},
-		"letsMeet": "会いましょう"
+		"letsMeet": "会いましょう",
+		"loading": "読み込み中..."
 	},
 	"home": {
 		"title": "私はパワン・クマールです",

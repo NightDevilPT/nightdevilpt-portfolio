@@ -571,8 +571,6 @@
 }
 
 @theme inline {
-	--font-sans: var(--font-geist-sans);
-	--font-mono: var(--font-geist-mono);
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
 	--color-card: var(--card);
@@ -617,7 +615,11 @@
 	}
 	body {
 		@apply bg-background text-foreground;
-		font-family: "Zalando Sans Expanded", sans-serif;
+		font-family: "Zalando Sans Expanded", sans-serif !important;
+	}
+
+	.custom-font {
+		font-family: "Zalando Sans Expanded", sans-serif !important;
 	}
 }
 

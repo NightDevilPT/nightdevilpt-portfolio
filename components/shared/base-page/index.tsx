@@ -8,14 +8,17 @@ export interface AnimatedButtonProps {
 	label: string;
 	icon: React.ReactElement<{ className?: string }>;
 	className?: string;
+	onClick?: () => void;
 }
 
 export const AnimatedButton: React.FC<AnimatedButtonProps> = ({
 	label,
 	icon,
 	className,
+	onClick,
 }) => (
 	<Button
+		onClick={onClick ? onClick : () => {}}
 		variant="outline"
 		className={`flex hover:!bg-primary !text-primary-foreground justify-start items-center gap-3 !p-6 rounded-full group transition-all duration-200 max-xl:!px-8 max-xl:!py-6 backdrop-blur-xl text-left text-[clamp(0.875rem,2vw+0.5rem,1rem)] ${className}`}
 	>
@@ -45,7 +48,7 @@ const BasePage: React.FC<BasePageProps> = ({
 	title,
 	description,
 	titleTags,
-	id
+	id,
 }) => {
 	return (
 		<div className="w-full h-auto relative pt-40 max-xl:pt-10" id={id}>

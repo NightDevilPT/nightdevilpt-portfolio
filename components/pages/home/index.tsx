@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { handleDownload } from "@/lib/utils";
 import { Download, LayoutDashboard } from "lucide-react";
 import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
@@ -24,6 +25,7 @@ const HomePage: React.FC = () => {
 				<AnimatedButton
 					label={dictionary?.home?.downloadCV || "Download CV"}
 					icon={<Download />}
+					onClick={handleDownload}
 					className="!bg-primary"
 				/>
 			</div>

@@ -12,7 +12,8 @@
 			"title": "Based In",
 			"description": "Delhi, India"
 		},
-		"letsMeet": "Let's Meet"
+		"letsMeet": "Let's Meet",
+		"loading": "Loading..."
 	},
 	"home": {
 		"title": "I'm Pawan Kumar",

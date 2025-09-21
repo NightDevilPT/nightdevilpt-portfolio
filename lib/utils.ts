@@ -29,19 +29,9 @@ export const getCategoryColor = (category: string) => {
 	}
 };
 
-export const ImageMappings: Record<string, string[]> = {
-	"nodge-workflow-automation": ["/storage-provider.png"],
-	"mock-ai-interview-platform": ["/storage-provider.png"],
-	"package-showcase-platform": ["/storage-provider.png"],
-	"cloudify-storage-provider": ["/storage-provider.png"],
-	"gamies-frontend": ["/storage-provider.png"],
-	"moviehub-entertainment-platform": ["/storage-provider.png"],
-	"job-desktop-dashboard": ["/storage-provider.png"],
-};
-
-export const getProjectImages = (
-	projectId: string,
-	projectImages: string[]
-): string[] => {
-	return ImageMappings[projectId] || projectImages || [];
+export const handleDownload = () => {
+	const link = document.createElement("a");
+	link.href = "/resume.pdf"; // path inside public/
+	link.download = "Pawan_Kumar_Resume.pdf"; // file name for download
+	link.click();
 };

@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Download } from "lucide-react";
+import { IBaseItem } from "@/interface/base.interface";
 import SpotlightCard from "@/components/ui/SpotlightCard";
 import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
@@ -9,10 +10,7 @@ import { useLanguage } from "@/components/providers/context/language-context";
 const ContactPage: React.FC = () => {
 	const { dictionary } = useLanguage();
 
-	const renderPersonalDetailItem = (
-		detail: { title: string; value: string },
-		index: number
-	) => (
+	const renderPersonalDetailItem = (detail: IBaseItem, index: number) => (
 		<div
 			key={`detail-${detail.title}-${index}`}
 			className="flex justify-start items-start flex-col gap-1 p-4 rounded-lg"
@@ -74,10 +72,7 @@ const ContactPage: React.FC = () => {
 
 			<div className="w-full h-auto grid grid-cols-3 max-md:grid-cols-1 gap-5 max-md:gap-0">
 				{dictionary?.contact?.footer?.map(
-					(
-						items: { title: string; value: string },
-						index: number
-					) => {
+					(items: IBaseItem, index: number) => {
 						return renderPersonalDetailItem(items, index);
 					}
 				)}

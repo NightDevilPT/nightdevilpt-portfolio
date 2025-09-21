@@ -2,21 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
+import { handleDownload } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
+import { IBaseItem } from "@/interface/base.interface";
 import SpotlightCard from "@/components/ui/SpotlightCard";
 import { Download, Code, Server, Cpu, Palette } from "lucide-react";
 import BasePage, { AnimatedButton } from "@/components/shared/base-page";
 import { useLanguage } from "@/components/providers/context/language-context";
-
-interface PersonalDetail {
-	title: string;
-	value: string;
-}
-
-interface AboutItem {
-	title: string;
-	value: number;
-}
 
 interface ServiceItem {
 	title: string;
@@ -35,7 +27,7 @@ const SERVICE_ICONS = {
 const AboutPage: React.FC = () => {
 	const { dictionary } = useLanguage();
 
-	const renderStatisticCard = (item: AboutItem, index: number) => (
+	const renderStatisticCard = (item: IBaseItem, index: number) => (
 		<SpotlightCard
 			key={`stat-${item.title}-${index}`}
 			className="bg-transparent flex justify-center items-center flex-col p-6 min-h-[160px] group"
@@ -49,10 +41,7 @@ const AboutPage: React.FC = () => {
 		</SpotlightCard>
 	);
 
-	const renderPersonalDetailItem = (
-		detail: PersonalDetail,
-		index: number
-	) => (
+	const renderPersonalDetailItem = (detail: IBaseItem, index: number) => (
 		<div
 			key={`detail-${detail.title}-${index}`}
 			className="flex justify-start items-start flex-col gap-1 p-4 rounded-lg hover:bg-muted/20 transition-colors duration-200"
@@ -172,8 +161,9 @@ const AboutPage: React.FC = () => {
 										dictionary?.home?.downloadCV ||
 										"Download CV"
 									}
-									icon={<Download className="w-4 h-4" />}
-									className="!bg-primary hover:!bg-primary/90 transition-colors duration-200"
+									icon={<Download />}
+									onClick={handleDownload}
+									className="!bg-primary"
 								/>
 							</div>
 						</div>
