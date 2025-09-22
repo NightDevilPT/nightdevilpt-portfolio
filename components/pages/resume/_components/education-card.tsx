@@ -43,7 +43,7 @@ const EducationCard: React.FC<Props> = ({ education, index, total }) => {
 			{/* Education Content */}
 			<SpotlightCard
 				className={`p-6 w-full !bg-transparent hover:shadow-lg backdrop-blur-xl transition-all duration-300 border border-border/50 mb-4 ${
-					themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+					themeMode === IThemeMode.LIGHT ? "!border-gray-300" : ""
 				}`}
 			>
 				<div className="flex flex-col">

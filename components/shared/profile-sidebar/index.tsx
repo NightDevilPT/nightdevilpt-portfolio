@@ -18,11 +18,14 @@ import SpotlightCard from "@/components/ui/SpotlightCard";
 import { useLanguage } from "@/components/providers/context/language-context";
 
 export const SocialMedias = [
-	{ link: "#", icon: FaGithub },
-	{ link: "#", icon: FaCode },
-	{ link: "#", icon: FaLinkedin },
-	{ link: "#", icon: FaYoutube },
-	{ link: "#", icon: FaInstagram },
+	{ link: "https://github.com/NightDevilPT", icon: FaGithub },
+	{
+		link: "https://www.linkedin.com/in/pawan-kumar-685a21243",
+		icon: FaLinkedin,
+	},
+	{ link: "https://leetcode.com/u/NightDevilPT/", icon: FaCode },
+	{ link: "https://www.youtube.com/@nightdevilpt", icon: FaYoutube },
+	{ link: "https://www.instagram.com/nightdevil_pt/", icon: FaInstagram },
 ];
 
 interface InfoSectionProps {
@@ -66,6 +69,7 @@ export const SocialIcons: React.FC = () => (
 			<div
 				className="w-full aspect-square relative rounded-full transition-all duration-300 overflow-hidden border-[1px] flex justify-center items-center p-3 hover:bg-primary max-w-[50px] hover:text-primary-foreground"
 				key={item.link + index}
+				onClick={() => window.open(item.link, "_blank")}
 			>
 				<item.icon className="w-full h-full" />
 			</div>
@@ -80,9 +84,11 @@ export const SideBarContent: React.FC = () => {
 	return (
 		<>
 			{/* Large screens (lg and above) */}
-			<SpotlightCard className={`w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-1 gap-4 max-w-[500px] max-xl:hidden max-md:grid ${
-				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
-			}`}>
+			<SpotlightCard
+				className={`w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-1 gap-4 max-w-[500px] max-xl:hidden max-md:grid ${
+					themeMode === IThemeMode.LIGHT ? "!border-gray-300" : ""
+				}`}
+			>
 				<ProfileHeader
 					name={dictionary?.general?.pawanKumar}
 					title={dictionary?.general?.softwareEngineer}
@@ -111,7 +117,7 @@ export const SideBarContent: React.FC = () => {
 			{/* Medium screens (md to lg) */}
 			<SpotlightCard
 				className={`w-full h-auto relative top-5 !bg-transparent !backdrop-blur-sm grid grid-cols-[250px_1px_1fr] gap-4 xl:hidden max-md:hidden ${
-					themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+					themeMode === IThemeMode.LIGHT ? "!border-gray-300" : ""
 				}`}
 			>
 				<div className="grid grid-cols-1 gap-5">

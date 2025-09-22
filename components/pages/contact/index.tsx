@@ -34,7 +34,7 @@ const ContactPage: React.FC = () => {
 				{dictionary?.contact?.description}
 			</p>
 			<SpotlightCard className={`bg-transparent backdrop-blur-xl mt-12 mb-20 ${
-				themeMode === IThemeMode.LIGHT ? "!border-gray-200" : ""
+				themeMode === IThemeMode.LIGHT ? "!border-gray-300" : ""
 			}`}>
 				<form className="w-full h-auto">
 					<div className="grid grid-cols-2 gap-8 ">
