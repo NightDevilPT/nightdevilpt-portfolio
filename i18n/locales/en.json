@@ -1,4 +1,511 @@
 {
+	"portfolio": {
+		"project": [
+			{
+				"id": "package-showcase-platform",
+				"category": "frontend",
+				"images": [
+					"/images/package-showcase/package-showcase.png"
+				],
+				"tech": [
+					"Next.js",
+					"React",
+					"TailwindCSS",
+					"TypeScript",
+					"NPM Registry API",
+					"Performance Optimization",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/package-showcase",
+				"live": "https://package-showcase.vercel.app/",
+				"status": "completed",
+				"completionDate": "2024-01-20",
+				"title": "My NPM Packages Showcase - Next.js",
+				"description": "A demonstration platform showcasing my published NPM packages with live examples, usage documentation, and interactive implementation previews.",
+				"detailedDescription": "Developed a clean, professional showcase platform using Next.js to demonstrate the functionality and real-world applications of my published NPM packages. The platform features live implementation examples, comprehensive usage documentation, and interactive component previews. Implemented performance optimization techniques including lazy loading and efficient bundle management, resulting in a 35% reduction in page load times and 20% improvement in user engagement. Each package includes installation guides, API documentation, and practical use cases to help developers understand and implement the solutions effectively.",
+				"features": [
+					"Live demonstrations of NPM packages",
+					"Interactive component previews",
+					"Comprehensive documentation and usage examples",
+					"Installation guides and code snippets",
+					"Performance-optimized loading",
+					"Responsive design for developers",
+					"Search and filter functionality",
+					"Package statistics and download metrics"
+				],
+				"role": "Frontend Developer & Package Author"
+			},
+			{
+				"id": "job-desktop-dashboard",
+				"category": "frontend",
+				"images": [
+					"/images/job-dashboard/job-dashboard.png"
+				],
+				"tech": [
+					"React.js",
+					"JavaScript (ES6+)",
+					"CSS3",
+					"Custom Hooks",
+					"DOM Manipulation",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/dashboard-pc-design",
+				"live": "https://dashboard-pc-design-git-main-nightdevilpt.vercel.app/",
+				"status": "completed",
+				"title": "Job Desktop Dashboard - React Interface",
+				"description": "A modern desktop dashboard interface for job management with custom-built carousel components and intuitive user experience design.",
+				"detailedDescription": "Designed and developed a sophisticated desktop dashboard interface using ReactJS with a focus on performance and custom component implementation. Created a custom carousel system from scratch without relying on external libraries like Swiper.JS, demonstrating deep understanding of React hooks and DOM manipulation. Built a comprehensive job management dashboard with statistics visualization, task tracking, and user-friendly navigation system.",
+				"features": [
+					"Custom-built carousel component without external libraries",
+					"Responsive desktop-first design approach",
+					"Interactive dashboard with real-time statistics",
+					"Job tracking and management system",
+					"Smooth animations and transitions",
+					"Modular component architecture",
+					"Performance-optimized rendering",
+					"Cross-browser compatibility"
+				],
+				"role": "Frontend Developer & UI Designer"
+			},
+			{
+				"title": "Autonomous QA Agent - AI Testing Pipeline",
+				"description": "An AI-driven testing pipeline that autonomously generates, executes, and self-heals unit tests for JavaScript and TypeScript projects using LangGraph and Docker.",
+				"detailedDescription": "Engineered a sophisticated testing agent that systematically ingests codebase files, performs topological sorts to build dependency-aware test plans, and executes tests inside a persisted Docker alpine container. Implemented a self-healing retry loop that feeds terminal logs back to the LLM to recursively resolve test failures, reducing manual debugging efforts by up to 90%.",
+				"features": [
+					"Persistent Docker Sandbox for isolation",
+					"Iterative Self-Healing and automatic test repair",
+					"Dependency-Aware topological planning",
+					"Automated Ingestion and Scan exclusion",
+					"Framework Auto-Detection (Jest, Vitest, etc.)",
+					"State Machine execution using LangGraph",
+					"Comprehensive test coverage reporting"
+				],
+				"role": "AI Engineer & Backend Developer",
+				"id": "qa-agent",
+				"category": "backend",
+				"images": [
+					"/images/qa-agent/qa-agent.png"
+				],
+				"tech": [
+					"Python",
+					"LangGraph",
+					"Docker",
+					"LangChain",
+					"TypeScript",
+					"Jest",
+					"Vitest",
+					"Typer"
+				],
+				"github": "https://github.com/NightDevilPT/qa-agent",
+				"live": "",
+				"status": "completed",
+				"completionDate": "2025-10-15"
+			},
+			{
+				"title": "Hierarchical Agentic AutoML System",
+				"description": "An autonomous, multi-tier Automated Machine Learning pipeline orchestrated using a Hierarchical LangGraph Subgraph Pattern to clean datasets, recommend models, and execute validation splits.",
+				"detailedDescription": "Architected a hierarchical LangGraph system that automates the machine learning lifecycle. Decoupled data analytics (schema stabilization, 9-stage preprocessing, validation splitting) from ML code generation and execution. Features a secure containerized Docker sandbox to train models and compile performance scorecards, presenting findings through a Human-in-the-Loop gateway.",
+				"features": [
+					"Hierarchical LangGraph Subgraph Pattern",
+					"9-stage data cleaning and categorical encoding",
+					"Automated 80/20 data partition and validation splitting",
+					"Human-in-the-Loop target and algorithm selection gateway",
+					"Isolated Docker sandbox execution environment",
+					"Self-contained container orchestration",
+					"Detailed model performance scorecard validation"
+				],
+				"role": "AI Architect & Machine Learning Engineer",
+				"id": "automl-system",
+				"category": "fullstack",
+				"images": [
+					"/images/ml-agent/ml-agent.png"
+				],
+				"tech": [
+					"Python",
+					"LangGraph",
+					"Docker",
+					"Scikit-Learn",
+					"XGBoost",
+					"Pandas",
+					"Machine Learning"
+				],
+				"github": "https://github.com/NightDevilPT/ml-agent",
+				"live": "",
+				"status": "completed",
+				"completionDate": "2025-11-20"
+			},
+			{
+				"title": "MongoDB MCP Server",
+				"description": "A Model Context Protocol (MCP) server that exposes 29 database administration, schema management, CRUD, and aggregation tools for MongoDB.",
+				"detailedDescription": "Developed a complete Model Context Protocol (MCP) server integration for MongoDB. The server implements 29 distinct tools across Database Administration, Schema & Field Management, CRUD Operations, and Aggregations. Features safe validation schema definitions, bidirectional relationship mapping (one-to-one/one-to-many), system protection rules, and robust error codes, enabling AI assistants to safely interact with databases.",
+				"features": [
+					"29 database administration and query tools",
+					"Bidirectional relationship tracking & automatic lookup indexing",
+					"Custom validation schema management (fields definitions)",
+					"Type-safe CRUD operations with bulk inserts/updates",
+					"Full aggregation pipeline support ($match, $group, $lookup)",
+					"System database and collection protection safety rules",
+					"Detailed execution logging and unified error code schema"
+				],
+				"role": "Backend Engineer & MCP Specialist",
+				"id": "mongodb-mcp-server",
+				"category": "backend",
+				"images": [
+					"/images/mongodb-mcp/mongodb-mcp.png"
+				],
+				"tech": [
+					"NextJS",
+					"Node.js",
+					"TypeScript",
+					"MongoDB",
+					"Model Context Protocol",
+					"JSON Schema"
+				],
+				"github": "https://github.com/NightDevilPT/mongodb-mcp",
+				"live": "https://mcp-mongodb.vercel.app/",
+				"status": "completed",
+				"completionDate": "2025-12-05"
+			}
+		],
+		"portfolio": "Portfolio",
+		"title": "Check out my projects"
+	},
+	"about": {
+		"items": [
+			{
+				"value": 11,
+				"title": "Happy Clients"
+			},
+			{
+				"value": 3,
+				"title": "Years of Experience"
+			},
+			{
+				"value": 2,
+				"title": "Projects Completed"
+			}
+		],
+		"personalDetails": [
+			{
+				"value": "Pawan Kumar",
+				"title": "Name"
+			},
+			{
+				"value": "+91-9540079162",
+				"title": "Phone"
+			},
+			{
+				"value": "pawankumartadagsingh@gmail.com",
+				"title": "Email"
+			},
+			{
+				"value": "Delhi, India",
+				"title": "Location"
+			}
+		],
+		"services": [
+			{
+				"image": "",
+				"tags": [
+					"Next.js",
+					"React",
+					"TypeScript",
+					"TailwindCSS",
+					"ShadCN",
+					"Redux",
+					"ReactFlow"
+				],
+				"title": "Frontend Development",
+				"description": "Building responsive, interactive web applications using Next.js with TypeScript, styled with TailwindCSS and enhanced with ShadCN UI components. Expert in state management with Redux Toolkit and Context API, plus specialized libraries like ReactFlow for complex visualizations."
+			},
+			{
+				"image": "",
+				"tags": [
+					"NestJS",
+					"Node.js",
+					"TypeScript",
+					"REST APIs",
+					"GraphQL",
+					"PostgreSQL",
+					"MongoDB",
+					"Design Patterns"
+				],
+				"title": "Backend Development",
+				"description": "Developing robust APIs and server-side applications using NestJS with TypeScript. Experienced in database design, authentication systems, microservices architecture, and implementing scalable backend solutions with proper error handling and security measures."
+			},
+			{
+				"image": "",
+				"tags": [
+					"Full Stack",
+					"System Design",
+					"Database Design",
+					"DevOps",
+					"Testing",
+					"Deployment"
+				],
+				"title": "Full Stack Solutions",
+				"description": "End-to-end application development combining modern frontend frameworks with powerful backend systems. Specializing in creating seamless integrations, optimized performance, and maintainable codebases with proper testing and deployment strategies."
+			},
+			{
+				"image": "",
+				"tags": [
+					"Design to Code",
+					"Responsive Design",
+					"UI/UX",
+					"Animations",
+					"Performance",
+					"Accessibility"
+				],
+				"title": "UI/UX Implementation",
+				"description": "Converting design mockups into pixel-perfect, responsive interfaces with smooth animations and optimal user experience. Focus on accessibility, performance optimization, and cross-browser compatibility using modern CSS techniques and component libraries."
+			}
+		],
+		"about": "About",
+		"title": "Transforming ideas into scalable digital solutions",
+		"descriptions": [
+			"I am a passionate full-stack developer specializing in modern web technologies. With expertise in both frontend and backend development, I create seamless, scalable applications that deliver exceptional user experiences while maintaining robust server-side architecture.",
+			"My approach combines clean, maintainable code with cutting-edge technologies like Next.js, NestJS, and TypeScript. I believe in building solutions that not only meet current requirements but are also future-ready and easily scalable."
+		],
+		"highlights": [
+			"3+ years of professional development experience",
+			"Expertise in modern TypeScript-first development",
+			"Strong focus on clean architecture and scalable solutions",
+			"Experience with both SQL and NoSQL databases",
+			"Proficient in modern deployment and DevOps practices",
+			"Passionate about continuous learning and staying updated with latest technologies"
+		]
+	},
+	"resume": {
+		"educations": [
+			{
+				"timeline": "2019-2022",
+				"grade": "CGPA: 9.16/10",
+				"place": "Delhi, India",
+				"title": "Bachelor of Vocation in Software Development",
+				"courseBy": "Ambedkar Institute of Technology",
+				"description": "Specialized in software development with emphasis on web technologies, system architecture, and data structures & algorithms."
+			},
+			{
+				"timeline": "2017-2018",
+				"grade": "Percentage: 65%",
+				"place": "Delhi, India",
+				"title": "Senior Secondary (12th) - Arts Stream",
+				"courseBy": "National Institute of Open Schooling (NIOS)",
+				"description": "Focused on Economics, Hindi, Geography, English, History, and Political Science, developing strong analytical and social science perspectives."
+			},
+			{
+				"timeline": "2014-2015",
+				"grade": "CGPA: 9/10",
+				"place": "Delhi, India",
+				"title": "Secondary (10th)",
+				"courseBy": "Central Board of Secondary Education (CBSE)",
+				"description": "Completed foundational education with a focus on core subjects, fostering overall academic and personal development."
+			}
+		],
+		"experiences": [
+			{
+				"company": "Surety Seven (007)",
+				"timeline": "Sep 2025 - Present",
+				"place": "Delhi, India",
+				"techStack": [
+					"REST APIs",
+					"Swagger",
+					"Python",
+					"RAG",
+					"LangChain",
+					"Vector Databases",
+					"Node.js",
+					"TypeScript"
+				],
+				"title": "Software Engineer",
+				"description": "Exposed partner-facing RESTful APIs with secure authentication and deployed an AI RAG system to accelerate document data extraction.",
+				"responsibilities": [
+					"Exposed RESTful APIs via Swagger documentation using client ID and secret authentication, enabling seamless partner integrations and enhancing production efficiency by 30%.",
+					"Deployed an AI RAG system for document uploads and intelligent query resolution, accelerating data extraction speeds by 40% through natural language prompts."
+				]
+			},
+			{
+				"company": "Charm AI Technologies Pvt. Ltd",
+				"timeline": "Mar 2025 - Sep 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"React.js",
+					"Next.js",
+					"NestJS",
+					"TypeScript",
+					"Node.js",
+					"PostgreSQL",
+					"GraphQL",
+					"AWS"
+				],
+				"title": "Software Developer",
+				"description": "Contributed to the development of a scalable warranty management system, enhancing enterprise workflows with role-based access and partner integrations.",
+				"responsibilities": [
+					"Engineered a multi-tenant SaaS platform for 10+ enterprise clients, enhancing scalability and modularity.",
+					"Designed and implemented a role-based access control (RBAC) system, reducing security incidents by 85% and supporting 50+ role configurations.",
+					"Enhanced the admin dashboard and onboarding workflows, reducing configuration time by 40%.",
+					"Streamlined partner and dealer onboarding processes, reducing setup time by 50% and empowering 100+ partners to manage workflows independently."
+				]
+			},
+			{
+				"company": "Misemind Technology Private Limited",
+				"timeline": "Sep 2023 - Feb 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"Angular",
+					"FastAPI",
+					"Python",
+					"Leaflet.js",
+					"Elasticsearch",
+					"OpenSearch",
+					"MySQL",
+					"Docker"
+				],
+				"title": "Software Developer",
+				"description": "Led the development of a tracking management system, delivering real-time analytics, geofencing, and scalable backend APIs.",
+				"responsibilities": [
+					"Developed a responsive web application using Angular, improving load times by 40% for 2,000+ daily users.",
+					"Architected and optimized REST APIs with FastAPI, efficiently handling 5,000+ daily requests.",
+					"Integrated OpenSearch for real-time analytics, improving query performance and system responsiveness by 30%.",
+					"Implemented geofencing with Leaflet.js and Elasticsearch, enabling real-time GPS tracking with 25% faster data retrieval."
+				]
+			}
+		],
+		"toolsAndLibs": [
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+				"iconName": "FaHtml5",
+				"title": "HTML5",
+				"description": "Proficient in creating structured web pages."
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+				"iconName": "FaCss3Alt",
+				"title": "CSS",
+				"description": "Skilled in responsive design with TailwindCSS."
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				"iconName": "FaJsSquare",
+				"title": "JavaScript",
+				"description": "Experienced in dynamic web applications."
+			},
+			{
+				"link": "https://reactjs.org/",
+				"iconName": "SiReact",
+				"title": "React.js",
+				"description": "Expert in building interactive UIs."
+			},
+			{
+				"link": "https://nextjs.org/",
+				"iconName": "RiNextjsFill",
+				"title": "Next.js",
+				"description": "Specialized in SSR and SSG apps."
+			},
+			{
+				"link": "https://nestjs.com/",
+				"iconName": "SiNestjs",
+				"title": "NestJS",
+				"description": "Proficient in scalable backend solutions."
+			},
+			{
+				"link": "https://angular.io/",
+				"iconName": "SiAngular",
+				"title": "Angular",
+				"description": "Skilled in robust frontend frameworks."
+			},
+			{
+				"link": "https://www.typescriptlang.org/",
+				"iconName": "BiLogoTypescript",
+				"title": "TypeScript",
+				"description": "Expert in static typing for JS."
+			},
+			{
+				"link": "https://www.prisma.io/",
+				"iconName": "SiPrisma",
+				"title": "Prisma",
+				"description": "Proficient in type-safe ORM."
+			},
+			{
+				"link": "https://www.mongodb.com/",
+				"iconName": "SiMongodb",
+				"title": "MongoDB",
+				"description": "Experienced with NoSQL databases."
+			},
+			{
+				"link": "https://www.postgresql.org/",
+				"iconName": "BiLogoPostgresql",
+				"title": "PostgreSQL",
+				"description": "Skilled in relational databases."
+			},
+			{
+				"link": "https://strapi.io/",
+				"iconName": "SiStrapi",
+				"title": "Strapi",
+				"description": "Proficient in headless CMS."
+			},
+			{
+				"link": "https://fastapi.tiangolo.com/",
+				"iconName": "SiFastapi",
+				"title": "FastAPI",
+				"description": "Experienced in high-performance APIs."
+			},
+			{
+				"link": "https://www.docker.com/",
+				"iconName": "SiDocker",
+				"title": "Docker",
+				"description": "Skilled in containerization."
+			},
+			{
+				"link": "https://stripe.com/",
+				"iconName": "FaCcStripe",
+				"title": "Stripe",
+				"description": "Experienced in payment integrations."
+			},
+			{
+				"link": "https://cursor.sh/",
+				"iconName": "FaBrain",
+				"title": "AI Tools",
+				"description": "Utilize AI IDEs for enhanced coding."
+			}
+		],
+		"resume": "Resume",
+		"title": "Education & Professional Journey",
+		"description": "A well-rounded academic foundation combined with diverse professional experience has enabled me to grow as a versatile software developer, committed to continuous learning, innovation, and delivering impactful solutions.",
+		"courseBy": "Institution:",
+		"myEducation": "Education",
+		"educationDescription": "An overview of my academic qualifications and areas of focus throughout my learning journey.",
+		"myExperience": "Professional Experience",
+		"experienceDescription": "A summary of my professional contributions, highlighting impactful projects, technical expertise, and collaboration in diverse environments.",
+		"myFavouriteToolsAndLibs": "My favourite tools and libs"
+	},
+	"contact": {
+		"footer": [
+			{
+				"value": "Delhi, India",
+				"title": "location"
+			},
+			{
+				"value": "+91-9540079162",
+				"title": "Phone"
+			},
+			{
+				"value": "pawankumartadagsingh@gmail.com",
+				"title": "Email"
+			}
+		],
+		"contact": "Contact",
+		"title": "Let's make something awesome together!",
+		"description": "Want to know more about me, tell me about your project or just to say hello? Drop me a line and I'll get back as soon as possible.",
+		"form": {
+			"yourName": "Your Name*",
+			"emailAddress": "Email Address*",
+			"companyName": "Company Name*",
+			"phoneNumber": "Phone Number*",
+			"description": "Description",
+			"sendMessage": "Send Message"
+		}
+	},
 	"general": {
 		"letsTalk": "Let's Talk",
 		"letsWorkTogether": "Let's Work Together!",
@@ -20,312 +527,6 @@
 		"shortDescription": "Software Engineer and Crafting innovative web solutions as a passionate MERN Stack and Full Stack Developer.",
 		"myWork": "My Work",
 		"downloadCV": "Download CV"
-	},
-	"portfolio": {
-		"portfolio": "Portfolio",
-		"title": "Check out my projects",
-		"project": [
-			{
-				"title": "Nodge - Visual Workflow Automation Platform",
-				"description": "A sophisticated visual workflow automation platform that enables users to create custom workflows through node-based programming with secure credential management.",
-				"detailedDescription": "Developed a comprehensive full-stack workflow automation solution using Next.js with advanced visual programming capabilities. Implemented a node-based interface using React Flow, allowing users to drag-and-drop nodes and create complex workflows through visual connections. Built secure credential management system with Prisma ORM for database operations, enabling users to store and reuse sensitive data across workflows. Created authentication system with user registration/login and personalized workflow dashboards.",
-				"features": [
-					"Visual node-based workflow editor",
-					"Drag-and-drop interface with React Flow",
-					"Secure credential storage and management",
-					"User authentication system",
-					"Real-time workflow visualization",
-					"Custom node creation and configuration",
-					"Workflow execution and debugging",
-					"Responsive dashboard design",
-					"Database integration with Prisma",
-					"Export/import workflow capabilities"
-				],
-				"role": "Full Stack Developer & System Architect"
-			},
-			{
-				"title": "Mock AI Interview Platform - Full Stack",
-				"description": "An AI-powered text-based interview simulation platform that generates adaptive questions and provides intelligent evaluations using advanced language models.",
-				"detailedDescription": "Engineered a comprehensive AI interview platform using Next.js, LangChain, and Gemini AI to revolutionize interview preparation. The system reduces interview preparation time by 75% and enables recruiters to evaluate twice as many candidates weekly. Implemented machine learning integration for adaptive question difficulty scaling and personalized candidate evaluation based on domain expertise. Supports multiple question types including technical, behavioral, and scenario-based assessments with real-time AI-powered feedback and scoring mechanisms.",
-				"features": [
-					"AI-generated adaptive interview questions",
-					"Personalized difficulty scaling",
-					"Multiple question types (technical/behavioral/scenario)",
-					"Real-time evaluation and scoring",
-					"Domain-specific expertise assessment",
-					"Comprehensive candidate feedback reports",
-					"Recruiter dashboard for candidate management",
-					"Secure authentication and session management"
-				],
-				"role": "Full Stack Developer & AI Integration Specialist"
-			},
-			{
-				"title": "My NPM Packages Showcase - Next.js",
-				"description": "A demonstration platform showcasing my published NPM packages with live examples, usage documentation, and interactive implementation previews.",
-				"detailedDescription": "Developed a clean, professional showcase platform using Next.js to demonstrate the functionality and real-world applications of my published NPM packages. The platform features live implementation examples, comprehensive usage documentation, and interactive component previews. Implemented performance optimization techniques including lazy loading and efficient bundle management, resulting in a 35% reduction in page load times and 20% improvement in user engagement. Each package includes installation guides, API documentation, and practical use cases to help developers understand and implement the solutions effectively.",
-				"features": [
-					"Live demonstrations of NPM packages",
-					"Interactive component previews",
-					"Comprehensive documentation and usage examples",
-					"Installation guides and code snippets",
-					"Performance-optimized loading",
-					"Responsive design for developers",
-					"Search and filter functionality",
-					"Package statistics and download metrics"
-				],
-				"role": "Frontend Developer & Package Author"
-			},
-			{
-				"title": "Cloudify Storage Provider - Next.js Platform",
-				"description": "A modern cloud storage solution built with Next.js, offering seamless file management, sharing capabilities, and real-time collaboration features.",
-				"detailedDescription": "Developed a comprehensive cloud storage platform frontend using Next.js with advanced file management capabilities. Implemented a responsive and intuitive user interface with Tailwind CSS and NextUI components. Utilized Redux for efficient global state management across complex file operations and user interactions. Deployed on Vercel for optimal performance and scalability, featuring drag-and-drop functionality, file previews, and secure sharing mechanisms.",
-				"features": [
-					"Real-time file synchronization",
-					"File sharing with permission controls",
-					"Advanced search and filtering system",
-					"Responsive design for all devices",
-					"Secure file storage and management",
-					"User authentication and authorization"
-				],
-				"role": "Full Stack Developer & UI/UX Designer"
-			},
-			{
-				"title": "Gamies Gaming World - Next.js Frontend",
-				"description": "A modern gaming platform frontend built with Next.js, featuring game discovery, user profiles, and interactive UI components with seamless state management.",
-				"detailedDescription": "Developed a comprehensive gaming frontend application deployed on Vercel using Next.js. Implemented responsive design with TailwindCSS and dynamic component library with NextUI. Managed complex application state using Redux and integrated with RAWG.io API for real-time game data fetching and filtering.",
-				"features": [
-					"Responsive game catalog with search and filters",
-					"User authentication and profile management",
-					"Game details with ratings and reviews",
-					"Favorite games collection",
-					"Optimized performance with SSR and ISR"
-				],
-				"role": "Frontend Developer"
-			},
-			{
-				"title": "MovieHUB Entertainment Platform - Full Stack",
-				"description": "A comprehensive entertainment discovery platform featuring movies, TV shows, and celebrity information with personalized user experience and advanced customization options.",
-				"detailedDescription": "Developed a full-stack entertainment application using modern web technologies with seamless integration of TMDB API. Built a responsive and immersive user interface with extensive customization capabilities including theme switching, font family selection, and personalized content preferences. Implemented advanced search functionality, detailed media information pages, and user watchlist features with persistent data storage.",
-				"features": [
-					"Comprehensive movie and TV show database",
-					"Advanced search with filters and categories",
-					"Customizable themes (light/dark mode)",
-					"Multiple font family options",
-					"Celebrity profiles and filmography",
-					"User watchlist and favorites system",
-					"Responsive design across all devices",
-					"Real-time data fetching from TMDB API"
-				],
-				"role": "Full Stack Developer & UI Designer"
-			},
-			{
-				"title": "Job Desktop Dashboard - React Interface",
-				"description": "A modern desktop dashboard interface for job management with custom-built carousel components and intuitive user experience design.",
-				"detailedDescription": "Designed and developed a sophisticated desktop dashboard interface using ReactJS with a focus on performance and custom component implementation. Created a custom carousel system from scratch without relying on external libraries like Swiper.JS, demonstrating deep understanding of React hooks and DOM manipulation. Built a comprehensive job management dashboard with statistics visualization, task tracking, and user-friendly navigation system.",
-				"features": [
-					"Custom-built carousel component without external libraries",
-					"Responsive desktop-first design approach",
-					"Interactive dashboard with real-time statistics",
-					"Job tracking and management system",
-					"Smooth animations and transitions",
-					"Modular component architecture",
-					"Performance-optimized rendering",
-					"Cross-browser compatibility"
-				],
-				"role": "Frontend Developer & UI Designer"
-			}
-		]
-	},
-	"about": {
-		"about": "About",
-		"title": "Transforming ideas into scalable digital solutions",
-		"items": [
-			{
-				"title": "Happy Clients"
-			},
-			{
-				"title": "Years of Experience"
-			},
-			{
-				"title": "Projects Completed"
-			}
-		],
-		"descriptions": [
-			"I am a passionate full-stack developer specializing in modern web technologies. With expertise in both frontend and backend development, I create seamless, scalable applications that deliver exceptional user experiences while maintaining robust server-side architecture.",
-			"My approach combines clean, maintainable code with cutting-edge technologies like Next.js, NestJS, and TypeScript. I believe in building solutions that not only meet current requirements but are also future-ready and easily scalable."
-		],
-		"personalDetails": [
-			{ "title": "Name" },
-			{ "title": "Phone" },
-			{ "title": "Email" },
-			{ "title": "Location" }
-		],
-		"services": [
-			{
-				"title": "Frontend Development",
-				"description": "Building responsive, interactive web applications using Next.js with TypeScript, styled with TailwindCSS and enhanced with ShadCN UI components. Expert in state management with Redux Toolkit and Context API, plus specialized libraries like ReactFlow for complex visualizations."
-			},
-			{
-				"title": "Backend Development",
-				"description": "Developing robust APIs and server-side applications using NestJS with TypeScript. Experienced in database design, authentication systems, microservices architecture, and implementing scalable backend solutions with proper error handling and security measures."
-			},
-			{
-				"title": "Full Stack Solutions",
-				"description": "End-to-end application development combining modern frontend frameworks with powerful backend systems. Specializing in creating seamless integrations, optimized performance, and maintainable codebases with proper testing and deployment strategies."
-			},
-			{
-				"title": "UI/UX Implementation",
-				"description": "Converting design mockups into pixel-perfect, responsive interfaces with smooth animations and optimal user experience. Focus on accessibility, performance optimization, and cross-browser compatibility using modern CSS techniques and component libraries."
-			}
-		],
-		"highlights": [
-			"3+ years of professional development experience",
-			"Expertise in modern TypeScript-first development",
-			"Strong focus on clean architecture and scalable solutions",
-			"Experience with both SQL and NoSQL databases",
-			"Proficient in modern deployment and DevOps practices",
-			"Passionate about continuous learning and staying updated with latest technologies"
-		]
-	},
-	"resume": {
-		"resume": "Resume",
-		"title": "Education & Professional Journey",
-		"description": "A well-rounded academic foundation combined with diverse professional experience has enabled me to grow as a versatile software developer, committed to continuous learning, innovation, and delivering impactful solutions.",
-		"courseBy": "Institution:",
-		"myEducation": "Education",
-		"educationDescription": "An overview of my academic qualifications and areas of focus throughout my learning journey.",
-		"educations": [
-			{
-				"title": "Bachelor of Vocation in Software Development",
-				"courseBy": "Guru Gobind Singh Indraprastha University",
-				"description": "Specialized in software development with emphasis on web technologies, system architecture, and data structures & algorithms."
-			},
-			{
-				"title": "Senior Secondary (12th) - Arts Stream",
-				"courseBy": "National Institute of Open Schooling (NIOS)",
-				"description": "Focused on Economics, Hindi, Geography, English, History, and Political Science, developing strong analytical and social science perspectives."
-			},
-			{
-				"title": "Secondary (10th)",
-				"courseBy": "Central Board of Secondary Education (CBSE)",
-				"description": "Completed foundational education with a focus on core subjects, fostering overall academic and personal development."
-			}
-		],
-		"myExperience": "Professional Experience",
-		"experienceDescription": "A summary of my professional contributions, highlighting impactful projects, technical expertise, and collaboration in diverse environments.",
-		"experiences": [
-			{
-				"title": "Software Developer",
-				"description": "Contributed to the development of a scalable warranty management system, enhancing enterprise workflows with role-based access and partner integrations.",
-				"responsibilities": [
-					"Engineered a multi-tenant SaaS platform for 10+ enterprise clients, enhancing scalability and modularity.",
-					"Designed and implemented a role-based access control (RBAC) system, reducing security incidents by 85% and supporting 50+ role configurations.",
-					"Enhanced the admin dashboard and onboarding workflows, reducing configuration time by 40%.",
-					"Streamlined partner and dealer onboarding processes, reducing setup time by 50% and empowering 100+ partners to manage workflows independently."
-				]
-			},
-			{
-				"title": "Software Developer",
-				"description": "Led the development of a tracking management system, delivering real-time analytics, geofencing, and scalable backend APIs.",
-				"responsibilities": [
-					"Developed a responsive web application using Angular, improving load times by 40% for 2,000+ daily users.",
-					"Architected and optimized REST APIs with FastAPI, efficiently handling 5,000+ daily requests.",
-					"Integrated OpenSearch for real-time analytics, improving query performance and system responsiveness by 30%.",
-					"Implemented geofencing with Leaflet.js and Elasticsearch, enabling real-time GPS tracking with 25% faster data retrieval."
-				]
-			}
-		],
-		"myFavouriteToolsAndLibs": "My favourite tools and libs",
-		"toolsAndLibs": [
-			{
-				"title": "HTML5",
-				"description": "Proficient in creating structured web pages."
-			},
-			{
-				"title": "CSS",
-				"description": "Skilled in responsive design with TailwindCSS."
-			},
-			{
-				"title": "JavaScript",
-				"description": "Experienced in dynamic web applications."
-			},
-			{
-				"title": "React.js",
-				"description": "Expert in building interactive UIs."
-			},
-			{
-				"title": "Next.js",
-				"description": "Specialized in SSR and SSG apps."
-			},
-			{
-				"title": "NestJS",
-				"description": "Proficient in scalable backend solutions."
-			},
-			{
-				"title": "Angular",
-				"description": "Skilled in robust frontend frameworks."
-			},
-			{
-				"title": "TypeScript",
-				"description": "Expert in static typing for JS."
-			},
-			{
-				"title": "Prisma",
-				"description": "Proficient in type-safe ORM."
-			},
-			{
-				"title": "MongoDB",
-				"description": "Experienced with NoSQL databases."
-			},
-			{
-				"title": "PostgreSQL",
-				"description": "Skilled in relational databases."
-			},
-			{
-				"title": "Strapi",
-				"description": "Proficient in headless CMS."
-			},
-			{
-				"title": "FastAPI",
-				"description": "Experienced in high-performance APIs."
-			},
-			{
-				"title": "Docker",
-				"description": "Skilled in containerization."
-			},
-			{
-				"title": "Stripe",
-				"description": "Experienced in payment integrations."
-			},
-			{
-				"title": "AI Tools",
-				"description": "Utilize AI IDEs for enhanced coding."
-			}
-		]
-	},
-	"contact": {
-		"contact": "Contact",
-		"title": "Let's make something awesome together!",
-		"description": "Want to know more about me, tell me about your project or just to say hello? Drop me a line and I'll get back as soon as possible.",
-		"form": {
-			"yourName": "Your Name*",
-			"emailAddress": "Email Address*",
-			"companyName": "Company Name*",
-			"phoneNumber": "Phone Number*",
-			"description": "Description",
-			"sendMessage": "Send Message"
-		},
-		"footer": [
-			{
-				"title": "location"
-			},
-			{
-				"title": "Phone"
-			},
-			{
-				"title": "Email"
-			}
-		]
 	},
 	"setting": {
 		"title": "Settings",

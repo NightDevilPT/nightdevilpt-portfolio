@@ -1,4 +1,511 @@
 {
+	"portfolio": {
+		"project": [
+			{
+				"id": "package-showcase-platform",
+				"category": "frontend",
+				"images": [
+					"/images/package-showcase/package-showcase.png"
+				],
+				"tech": [
+					"Next.js",
+					"React",
+					"TailwindCSS",
+					"TypeScript",
+					"NPM Registry API",
+					"Performance Optimization",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/package-showcase",
+				"live": "https://package-showcase.vercel.app/",
+				"status": "completed",
+				"completionDate": "2024-01-20",
+				"title": "Meine NPM-Pakete-Präsentation - Next.js",
+				"description": "Eine Demonstrationsplattform, die meine veröffentlichten NPM-Pakete mit Live-Beispielen, Nutzungsdokumentation und interaktiven Implementierungsvorschauen präsentiert.",
+				"detailedDescription": "Ich habe eine saubere, professionelle Präsentationsplattform mit Next.js entwickelt, um die Funktionalität und praktischen Anwendungen meiner veröffentlichten NPM-Pakete zu demonstrieren. Die Plattform bietet Live-Implementierungsbeispiele, umfassende Nutzungsdokumentation und interaktive Komponentenvorschauen. Ich habe Performance-Optimierungstechniken wie Lazy Loading und effizientes Bundle-Management implementiert, was zu einer Reduktion der Seitenladezeiten um 35 % und einer Verbesserung des Nutzerengagements um 20 % führte. Jedes Paket enthält Installationsanleitungen, API-Dokumentation und praktische Anwendungsfälle, um Entwicklern das Verständnis und die Implementierung der Lösungen zu erleichtern.",
+				"features": [
+					"Live-Demonstrationen von NPM-Paketen",
+					"Interaktive Komponentenvorschauen",
+					"Umfassende Dokumentation und Nutzungsbeispiele",
+					"Installationsanleitungen und Code-Snippets",
+					"Performance-optimierte Ladezeiten",
+					"Responsives Design für Entwickler",
+					"Such- und Filterfunktionalität",
+					"Paket-Statistiken und Download-Metriken"
+				],
+				"role": "Frontend-Entwickler & Paketautor"
+			},
+			{
+				"id": "job-desktop-dashboard",
+				"category": "frontend",
+				"images": [
+					"/images/job-dashboard/job-dashboard.png"
+				],
+				"tech": [
+					"React.js",
+					"JavaScript (ES6+)",
+					"CSS3",
+					"Custom Hooks",
+					"DOM Manipulation",
+					"Vercel"
+				],
+				"github": "https://github.com/NightDevilPT/dashboard-pc-design",
+				"live": "https://dashboard-pc-design-git-main-nightdevilpt.vercel.app/",
+				"status": "completed",
+				"title": "Job Desktop Dashboard - React Schnittstelle",
+				"description": "Eine moderne Desktop-Dashboard-Schnittstelle für die Jobverwaltung mit maßgeschneiderten Karussellkomponenten und intuitivem Benutzererlebnisdesign.",
+				"detailedDescription": "Ich habe eine ausgefeilte Desktop-Dashboard-Schnittstelle mit ReactJS entwickelt, mit einem Fokus auf Performance und maßgeschneiderte Komponentenimplementierung. Ich habe ein maßgeschneidertes Karussellsystem von Grund auf ohne Abhängigkeit von externen Bibliotheken wie Swiper.JS entwickelt, was ein tiefes Verständnis von React-Hooks und DOM-Manipulation demonstriert. Ich habe ein umfassendes Jobverwaltungs-Dashboard mit Statistikvisualisierung, Aufgabenverfolgung und benutzerfreundlichem Navigationssystem erstellt.",
+				"features": [
+					"Maßgeschneiderte Karussellkomponente ohne externe Bibliotheken",
+					"Responsiver Desktop-First-Designansatz",
+					"Interaktives Dashboard mit Echtzeit-Statistiken",
+					"Jobverfolgungs- und Verwaltungssystem",
+					"Flüssige Animationen und Übergänge",
+					"Modulare Komponentenarchitektur",
+					"Performance-optimiertes Rendering",
+					"Cross-Browser-Kompatibilität"
+				],
+				"role": "Frontend-Entwickler & UI-Designer"
+			},
+			{
+				"id": "qa-agent",
+				"category": "backend",
+				"images": [
+					"/images/qa-agent/qa-agent.png"
+				],
+				"tech": [
+					"Python",
+					"LangGraph",
+					"Docker",
+					"LangChain",
+					"TypeScript",
+					"Jest",
+					"Vitest",
+					"Typer"
+				],
+				"github": "https://github.com/NightDevilPT/qa-agent",
+				"live": "",
+				"status": "completed",
+				"completionDate": "2025-10-15",
+				"title": "Autonomer QA-Agent - KI-Test-Pipeline",
+				"description": "Eine KI-gesteuerte Test-Pipeline, die autonom Unit-Tests für JavaScript- und TypeScript-Projekte mithilfe von LangGraph und Docker generiert, ausführt und selbst heilt.",
+				"detailedDescription": "Entwicklung eines hochentwickelten Test-Agenten, der Codebasis-Dateien systematisch einliest, topologische Sortierungen durchführt, um abhängigkeitsbewusste Testpläne zu erstellen, und Tests in einem persistenten Docker-Alpine-Container ausführt. Implementierung einer selbstheilenden Wiederholungsschleife, die Terminal-Protokolle an das LLM zurückmeldet, um Testfehler rekursiv zu beheben.",
+				"features": [
+					"Persistente Docker-Sandbox zur Isolation",
+					"Iterative Selbstheilung und automatische Testreparatur",
+					"Abhängigkeitsbewusste topologische Planung",
+					"Automatisches Einlesen und Scanausschluss",
+					"Framework-Auto-Erkennung (Jest, Vitest, etc.)",
+					"Zustandsmaschinen-Ausführung mit LangGraph",
+					"Umfassende Berichterstattung über die Testabdeckung"
+				],
+				"role": "KI-Entwickler & Backend-Entwickler"
+			},
+			{
+				"id": "automl-system",
+				"category": "fullstack",
+				"images": [
+					"/images/ml-agent/ml-agent.png"
+				],
+				"tech": [
+					"Python",
+					"LangGraph",
+					"Docker",
+					"Scikit-Learn",
+					"XGBoost",
+					"Pandas",
+					"Machine Learning"
+				],
+				"github": "https://github.com/NightDevilPT/ml-agent",
+				"live": "",
+				"status": "completed",
+				"completionDate": "2025-11-20",
+				"title": "Hierarchisches Agentisches AutoML-System",
+				"description": "Eine autonome, mehrstufige automatisierte Pipeline für maschinelles Lernen, die mithilfe eines hierarchischen LangGraph-Subgraphenmusters organisiert ist, um Datensätze zu bereinigen, Modelle zu empfehlen und Validierungs-Splits auszuführen.",
+				"detailedDescription": "Entwurf eines hierarchischen LangGraph-Systems zur Automatisierung des Lebenszyklus des maschinellen Lernens. Datenanalyse (Schema-Stabilisierung, 9-stufige Vorverarbeitung, Validierungsaufteilung) wurde von der ML-Codegenerierung und -ausführung entkoppelt. Bietet eine sichere, containerisierte Docker-Sandbox zum Trainieren von Modellen und Erstellen von Leistungskarten.",
+				"features": [
+					"Hierarchisches LangGraph-Subgraphenmuster",
+					"9-stufige Datenbereinigung und kategoriale Kodierung",
+					"Automatische 80/20 Datenpartitionierung und Validierungsaufteilung",
+					"Human-in-the-Loop-Ziel- und Algorithmen-Auswahl-Gateway",
+					"Isolierte Docker-Sandbox-Ausführungsumgebung",
+					"Eigenständige Container-Orchestrierung",
+					"Detaillierte Validierung der Modellleistungskarte"
+				],
+				"role": "KI-Architekt & Ingenieur für maschinelles Lernen"
+			},
+			{
+				"id": "mongodb-mcp-server",
+				"category": "backend",
+				"images": [
+					"/images/mongodb-mcp/mongodb-mcp.png"
+				],
+				"tech": [
+					"NextJS",
+					"Node.js",
+					"TypeScript",
+					"MongoDB",
+					"Model Context Protocol",
+					"JSON Schema"
+				],
+				"github": "https://github.com/NightDevilPT/mongodb-mcp",
+				"live": "https://mcp-mongodb.vercel.app/",
+				"status": "completed",
+				"completionDate": "2025-12-05",
+				"title": "MongoDB MCP-Server",
+				"description": "Ein Model Context Protocol (MCP)-Server, der 29 Tools für Datenbankadministration, Schema-Management, CRUD und Aggregation für MongoDB bereitstellt.",
+				"detailedDescription": "Entwicklung einer vollständigen Model Context Protocol (MCP)-Serverintegration für MongoDB. Der Server implementiert 29 verschiedene Tools in den Bereichen Datenbankadministration, Schema- und Feldverwaltung, CRUD-Operationen und Aggregationen. Bietet sichere Validierungsschemata, bidirektionale Beziehungszuordnungen (1:1/1:N), Systemschutzregeln und robuste Fehlercodes, damit KI-Assistenten sicher mit Datenbanken interagieren können.",
+				"features": [
+					"29 Datenbankadministrations- und Abfragewerkzeuge",
+					"Bidirektionale Beziehungsüberwachung & automatische Lookup-Indizierung",
+					"Benutzerdefiniertes Validierungsschema-Management (Felddefinitionen)",
+					"Typsichere CRUD-Operationen mit Bulk-Inserts/Updates",
+					"Volle Unterstützung für die Aggregations-Pipeline ($match, $group, $lookup)",
+					"Systemdatenbank- und Sammlungsschutz-Sicherheitsregeln",
+					"Detaillierte Ausführungsprotokollierung und einheitliches Fehlercodeschema"
+				],
+				"role": "Backend-Entwickler & MCP-Spezialist"
+			}
+		],
+		"portfolio": "Portfolio",
+		"title": "Schau dir meine Projekte an"
+	},
+	"about": {
+		"items": [
+			{
+				"value": 10,
+				"title": "Zufriedene Kunden"
+			},
+			{
+				"value": 3,
+				"title": "Jahre Erfahrung"
+			},
+			{
+				"value": 2,
+				"title": "Abgeschlossene Projekte"
+			}
+		],
+		"personalDetails": [
+			{
+				"value": "Pawan Kumar",
+				"title": "Name"
+			},
+			{
+				"value": "+91-9540079162",
+				"title": "Telefon"
+			},
+			{
+				"value": "pawankumartadagsingh@gmail.com",
+				"title": "E-Mail"
+			},
+			{
+				"value": "Delhi, India",
+				"title": "Standort"
+			}
+		],
+		"services": [
+			{
+				"image": "",
+				"tags": [
+					"Next.js",
+					"React",
+					"TypeScript",
+					"TailwindCSS",
+					"ShadCN",
+					"Redux",
+					"ReactFlow"
+				],
+				"title": "Frontend-Entwicklung",
+				"description": "Entwicklung responsiver, interaktiver Webanwendungen mit Next.js und TypeScript, gestylt mit TailwindCSS und erweitert durch ShadCN UI-Komponenten. Experte in Zustandsmanagement mit Redux Toolkit und Context API sowie spezialisierten Bibliotheken wie ReactFlow für komplexe Visualisierungen."
+			},
+			{
+				"image": "",
+				"tags": [
+					"NestJS",
+					"Node.js",
+					"TypeScript",
+					"REST APIs",
+					"GraphQL",
+					"PostgreSQL",
+					"MongoDB",
+					"Design Patterns"
+				],
+				"title": "Backend-Entwicklung",
+				"description": "Entwicklung robuster APIs und serverseitiger Anwendungen mit NestJS und TypeScript. Erfahren in Datenbankdesign, Authentifizierungssystemen, Microservices-Architektur und Implementierung skalierbarer Backend-Lösungen mit angemessener Fehlerbehandlung und Sicherheitsmaßnahmen."
+			},
+			{
+				"image": "",
+				"tags": [
+					"Full Stack",
+					"System Design",
+					"Database Design",
+					"DevOps",
+					"Testing",
+					"Deployment"
+				],
+				"title": "Full-Stack-Lösungen",
+				"description": "End-to-End-Anwendungsentwicklung, die moderne Frontend-Frameworks mit leistungsstarken Backend-Systemen kombiniert. Spezialisiert auf die Schaffung nahtloser Integrationen, optimierter Performance und wartbarer Codebasen mit angemessenen Test- und Bereitstellungsstrategien."
+			},
+			{
+				"image": "",
+				"tags": [
+					"Design to Code",
+					"Responsive Design",
+					"UI/UX",
+					"Animations",
+					"Performance",
+					"Accessibility"
+				],
+				"title": "UI/UX-Implementierung",
+				"description": "Umsetzung von Design-Mockups in pixelgenaue, responsive Schnittstellen mit flüssigen Animationen und optimalem Benutzererlebnis. Fokus auf Barrierefreiheit, Performance-Optimierung und Cross-Browser-Kompatibilität mit modernen CSS-Techniken und Komponentenbibliotheken."
+			}
+		],
+		"about": "Über mich",
+		"title": "Ideen in skalierbare digitale Lösungen verwandeln",
+		"descriptions": [
+			"Ich bin ein leidenschaftlicher Full-Stack-Entwickler, der sich auf moderne Webtechnologien spezialisiert hat. Mit Expertise in Frontend- und Backend-Entwicklung erstelle ich nahtlose, skalierbare Anwendungen, die außergewöhnliche Benutzererfahrungen bieten und gleichzeitig eine robuste Serverseitenarchitektur aufrechterhalten.",
+			"Mein Ansatz kombiniert sauberen, wartbaren Code mit modernsten Technologien wie Next.js, NestJS und TypeScript. Ich glaube daran, Lösungen zu entwickeln, die nicht nur aktuelle Anforderungen erfüllen, sondern auch zukunftssicher und leicht skalierbar sind."
+		],
+		"highlights": [
+			"Über 3 Jahre professionelle Entwicklungserfahrung",
+			"Expertise in moderner TypeScript-orientierter Entwicklung",
+			"Starker Fokus auf saubere Architektur und skalierbare Lösungen",
+			"Erfahrung mit SQL- und NoSQL-Datenbanken",
+			"Kompetent in modernen Bereitstellungs- und DevOps-Praktiken",
+			"Leidenschaftlich für kontinuierliches Lernen und das Up-to-date-Bleiben mit den neuesten Technologien"
+		]
+	},
+	"resume": {
+		"educations": [
+			{
+				"timeline": "2019-2022",
+				"grade": "CGPA: 9.16/10",
+				"place": "Delhi, India",
+				"title": "Bachelor of Vocation in Softwareentwicklung",
+				"courseBy": "Ambedkar Institute of Technology",
+				"description": "Spezialisiert auf Softwareentwicklung mit Schwerpunkt auf Webtechnologien, Systemarchitektur und Datenstrukturen & Algorithmen."
+			},
+			{
+				"timeline": "2017-2018",
+				"grade": "Percentage: 65%",
+				"place": "Delhi, India",
+				"title": "Oberstufe (12. Klasse) - Geisteswissenschaften",
+				"courseBy": "Nationales Institut für Offene Schulbildung (NIOS)",
+				"description": "Fokus auf Wirtschaft, Hindi, Geographie, Englisch, Geschichte und Politikwissenschaft, Entwicklung starker analytischer und sozialwissenschaftlicher Perspektiven."
+			},
+			{
+				"timeline": "2014-2015",
+				"grade": "CGPA: 9/10",
+				"place": "Delhi, India",
+				"title": "Mittlere Reife (10. Klasse)",
+				"courseBy": "Zentraler Ausschuss für Sekundarbildung (CBSE)",
+				"description": "Abschluss der grundlegenden Bildung mit Fokus auf Kernfächern, Förderung der allgemeinen akademischen und persönlichen Entwicklung."
+			}
+		],
+		"experiences": [
+			{
+				"company": "Surety Seven (007)",
+				"timeline": "Sep 2025 - Gegenwart",
+				"place": "Delhi, Indien",
+				"techStack": [
+					"REST APIs",
+					"Swagger",
+					"Python",
+					"RAG",
+					"LangChain",
+					"Vector Databases",
+					"Node.js",
+					"TypeScript"
+				],
+				"title": "Softwareentwickler",
+				"description": "Bereitstellung von partnerseitigen REST-APIs mit sicherer Authentifizierung und Implementierung eines KI-RAG-Systems zur Beschleunigung der Dokumentendatenextraktion.",
+				"responsibilities": [
+					"Bereitstellung von REST-APIs über die Swagger-Dokumentation mit Client-ID- und Secret-Authentifizierung, was eine nahtlose Partnerintegration ermöglicht und die Produktionseffizienz um 30 % steigerte.",
+					"Implementierung eines KI-RAG-Systems für Dokumenten-Uploads und intelligente Abfrageauflösung, wodurch die Datenextraktionsgeschwindigkeit durch Eingabeaufforderungen in natürlicher Sprache um 40 % beschleunigt wurde."
+				]
+			},
+			{
+				"company": "Charm AI Technologies Pvt. Ltd",
+				"timeline": "Mar 2025 - Sep 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"React.js",
+					"Next.js",
+					"NestJS",
+					"TypeScript",
+					"Node.js",
+					"PostgreSQL",
+					"GraphQL",
+					"AWS"
+				],
+				"title": "Softwareentwickler",
+				"description": "Beitrag zur Entwicklung eines skalierbaren Garantiemanagementsystems, Verbesserung von Unternehmens-Workflows mit rollenbasiertem Zugriff und Partnerintegrationen.",
+				"responsibilities": [
+					"Entwicklung einer Multi-Tenant-SaaS-Plattform für über 10 Unternehmenskunden, Verbesserung der Skalierbarkeit und Modularität.",
+					"Entwurf und Implementierung eines rollenbasierten Zugriffskontrollsystems (RBAC), Reduzierung von Sicherheitsvorfällen um 85 % und Unterstützung von über 50 Rollenkonfigurationen.",
+					"Verbesserung des Admin-Dashboards und Onboarding-Workflows, Reduzierung der Konfigurationszeit um 40 %.",
+					"Optimierung der Partner- und Händler-Onboarding-Prozesse, Reduzierung der Einrichtungszeit um 50 % und Ermöglichung von über 100 Partnern, Workflows unabhängig zu verwalten."
+				]
+			},
+			{
+				"company": "Misemind Technology Private Limited",
+				"timeline": "Sep 2023 - Feb 2025",
+				"place": "On-Site, Delhi, India",
+				"techStack": [
+					"Angular",
+					"FastAPI",
+					"Python",
+					"Leaflet.js",
+					"Elasticsearch",
+					"OpenSearch",
+					"MySQL",
+					"Docker"
+				],
+				"title": "Softwareentwickler",
+				"description": "Leitung der Entwicklung eines Tracking-Managementsystems, Bereitstellung von Echtzeit-Analysen, Geofencing und skalierbaren Backend-APIs.",
+				"responsibilities": [
+					"Entwicklung einer responsiven Webanwendung mit Angular, Verbesserung der Ladezeiten um 40 % für über 2.000 tägliche Nutzer.",
+					"Entwurf und Optimierung von REST-APIs mit FastAPI, effiziente Handhabung von über 5.000 täglichen Anfragen.",
+					"Integration von OpenSearch für Echtzeit-Analysen, Verbesserung der Abfrageleistung und Systemreaktionsfähigkeit um 30 %.",
+					"Implementierung von Geofencing mit Leaflet.js und Elasticsearch, Ermöglichung von Echtzeit-GPS-Tracking mit 25 % schnellerer Datenabfrage."
+				]
+			}
+		],
+		"toolsAndLibs": [
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+				"iconName": "FaHtml5",
+				"title": "HTML5",
+				"description": "Erfahren in der Erstellung strukturierter Webseiten."
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+				"iconName": "FaCss3Alt",
+				"title": "CSS",
+				"description": "Kompetent in responsivem Design mit TailwindCSS."
+			},
+			{
+				"link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				"iconName": "FaJsSquare",
+				"title": "JavaScript",
+				"description": "Erfahren in dynamischen Webanwendungen."
+			},
+			{
+				"link": "https://reactjs.org/",
+				"iconName": "SiReact",
+				"title": "React.js",
+				"description": "Experte in der Erstellung interaktiver Benutzeroberflächen."
+			},
+			{
+				"link": "https://nextjs.org/",
+				"iconName": "RiNextjsFill",
+				"title": "Next.js",
+				"description": "Spezialisiert auf SSR- und SSG-Apps."
+			},
+			{
+				"link": "https://nestjs.com/",
+				"iconName": "SiNestjs",
+				"title": "NestJS",
+				"description": "Kompetent in skalierbaren Backend-Lösungen."
+			},
+			{
+				"link": "https://angular.io/",
+				"iconName": "SiAngular",
+				"title": "Angular",
+				"description": "Kompetent in robusten Frontend-Frameworks."
+			},
+			{
+				"link": "https://www.typescriptlang.org/",
+				"iconName": "BiLogoTypescript",
+				"title": "TypeScript",
+				"description": "Experte in statischer Typisierung für JavaScript."
+			},
+			{
+				"link": "https://www.prisma.io/",
+				"iconName": "SiPrisma",
+				"title": "Prisma",
+				"description": "Kompetent in typsicherem ORM."
+			},
+			{
+				"link": "https://www.mongodb.com/",
+				"iconName": "SiMongodb",
+				"title": "MongoDB",
+				"description": "Erfahren mit NoSQL-Datenbanken."
+			},
+			{
+				"link": "https://www.postgresql.org/",
+				"iconName": "BiLogoPostgresql",
+				"title": "PostgreSQL",
+				"description": "Kompetent in relationalen Datenbanken."
+			},
+			{
+				"link": "https://strapi.io/",
+				"iconName": "SiStrapi",
+				"title": "Strapi",
+				"description": "Kompetent in Headless-CMS."
+			},
+			{
+				"link": "https://fastapi.tiangolo.com/",
+				"iconName": "SiFastapi",
+				"title": "FastAPI",
+				"description": "Erfahren in hochperformanten APIs."
+			},
+			{
+				"link": "https://www.docker.com/",
+				"iconName": "SiDocker",
+				"title": "Docker",
+				"description": "Kompetent in Containerisierung."
+			},
+			{
+				"link": "https://stripe.com/",
+				"iconName": "FaCcStripe",
+				"title": "Stripe",
+				"description": "Erfahren in Zahlungsintegrationen."
+			},
+			{
+				"link": "https://cursor.sh/",
+				"iconName": "FaBrain",
+				"title": "KI-Tools",
+				"description": "Nutzung von KI-IDEs für verbessertes Coding."
+			}
+		],
+		"resume": "Lebenslauf",
+		"title": "Bildung & Beruflicher Werdegang",
+		"description": "Eine fundierte akademische Grundlage in Kombination mit vielfältiger Berufserfahrung hat es mir ermöglicht, als vielseitiger Softwareentwickler zu wachsen, der sich dem kontinuierlichen Lernen, der Innovation und der Bereitstellung wirkungsvoller Lösungen verschrieben hat.",
+		"courseBy": "Institution:",
+		"myEducation": "Bildung",
+		"educationDescription": "Ein Überblick über meine akademischen Qualifikationen und Schwerpunkte während meiner Lernreise.",
+		"myExperience": "Berufserfahrung",
+		"experienceDescription": "Eine Zusammenfassung meiner beruflichen Beiträge, die wirkungsvolle Projekte, technische Expertise und Zusammenarbeit in vielfältigen Umgebungen hervorhebt.",
+		"myFavouriteToolsAndLibs": "Meine Lieblingswerkzeuge und Bibliotheken"
+	},
+	"contact": {
+		"footer": [
+			{
+				"value": "Delhi, India",
+				"title": "Standort"
+			},
+			{
+				"value": "+91-9540079162",
+				"title": "Telefon"
+			},
+			{
+				"value": "pawankumartadagsingh@gmail.com",
+				"title": "E-Mail"
+			}
+		],
+		"contact": "Kontakt",
+		"title": "Lass uns etwas Großartiges zusammen machen!",
+		"description": "Möchtest du mehr über mich erfahren, mir von deinem Projekt erzählen oder einfach nur hallo sagen? Schreib mir eine Nachricht, und ich melde mich so schnell wie möglich zurück.",
+		"form": {
+			"yourName": "Dein Name*",
+			"emailAddress": "E-Mail-Adresse*",
+			"companyName": "Firmenname*",
+			"phoneNumber": "Telefonnummer*",
+			"description": "Beschreibung",
+			"sendMessage": "Nachricht senden"
+		}
+	},
 	"general": {
 		"letsTalk": "Lass uns reden",
 		"letsWorkTogether": "Lass uns zusammenarbeiten!",
@@ -20,312 +527,6 @@
 		"shortDescription": "Softwareentwickler und Schöpfer innovativer Web-Lösungen als leidenschaftlicher MERN Stack und Full-Stack-Entwickler.",
 		"myWork": "Meine Arbeit",
 		"downloadCV": "Lebenslauf herunterladen"
-	},
-	"portfolio": {
-		"portfolio": "Portfolio",
-		"title": "Schau dir meine Projekte an",
-		"project": [
-			{
-				"title": "Nodge - Visuelle Workflow-Automatisierungsplattform",
-				"description": "Eine ausgefeilte visuelle Workflow-Automatisierungsplattform, die es Nutzern ermöglicht, benutzerdefinierte Workflows durch knotenbasierte Programmierung mit sicherem Credential-Management zu erstellen.",
-				"detailedDescription": "Ich habe eine umfassende Full-Stack-Workflow-Automatisierungslösung mit Next.js entwickelt, die über fortschrittliche visuelle Programmierfähigkeiten verfügt. Ich habe eine knotenbasierte Benutzeroberfläche mit React Flow implementiert, die es Nutzern ermöglicht, Knoten per Drag-and-Drop zu verschieben und komplexe Workflows durch visuelle Verbindungen zu erstellen. Ich habe ein sicheres Credential-Management-System mit Prisma ORM für Datenbankoperationen entwickelt, das es Nutzern ermöglicht, sensible Daten in Workflows zu speichern und wiederzuverwenden. Außerdem habe ich ein Authentifizierungssystem mit Benutzerregistrierung/Login und personalisierten Workflow-Dashboards erstellt.",
-				"features": [
-					"Visueller knotenbasierter Workflow-Editor",
-					"Drag-and-Drop-Benutzeroberfläche mit React Flow",
-					"Sichere Speicherung und Verwaltung von Credentials",
-					"Benutzerauthentifizierungssystem",
-					"Echtzeit-Workflow-Visualisierung",
-					"Erstellung und Konfiguration benutzerdefinierter Knoten",
-					"Workflow-Ausführung und Debugging",
-					"Responsives Dashboard-Design",
-					"Datenbankintegration mit Prisma",
-					"Export-/Importfunktionen für Workflows"
-				],
-				"role": "Full-Stack-Entwickler & Systemarchitekt"
-			},
-			{
-				"title": "Mock-AI-Interviewplattform - Full Stack",
-				"description": "Eine KI-gestützte textbasierte Interview-Simulationsplattform, die adaptive Fragen generiert und intelligente Bewertungen mithilfe fortschrittlicher Sprachmodelle liefert.",
-				"detailedDescription": "Ich habe eine umfassende KI-Interviewplattform mit Next.js, LangChain und Gemini AI entwickelt, um die Interviewvorbereitung zu revolutionieren. Das System reduziert die Vorbereitungszeit für Interviews um 75 % und ermöglicht es Personalverantwortlichen, wöchentlich doppelt so viele Kandidaten zu bewerten. Ich habe maschinelles Lernen integriert, um die Schwierigkeit der Fragen adaptiv zu skalieren und personalisierte Kandidatenbewertungen basierend auf Fachkenntnissen zu ermöglichen. Es unterstützt verschiedene Fragentypen, einschließlich technischer, verhaltensbasierter und szenariobasierter Bewertungen, mit Echtzeit-KI-gestütztem Feedback und Bewertungsmechanismen.",
-				"features": [
-					"KI-generierte adaptive Interviewfragen",
-					"Personalisierte Schwierigkeitsanpassung",
-					"Verschiedene Fragentypen (technisch/verhaltensbasiert/szenariobasiert)",
-					"Echtzeit-Bewertung und Scoring",
-					"Fachspezifische Kompetenzbewertung",
-					"Umfassende Feedback-Berichte für Kandidaten",
-					"Recruiter-Dashboard zur Kandidatenverwaltung",
-					"Sichere Authentifizierung und Sitzungsverwaltung"
-				],
-				"role": "Full-Stack-Entwickler & KI-Integrationsspezialist"
-			},
-			{
-				"title": "Meine NPM-Pakete-Präsentation - Next.js",
-				"description": "Eine Demonstrationsplattform, die meine veröffentlichten NPM-Pakete mit Live-Beispielen, Nutzungsdokumentation und interaktiven Implementierungsvorschauen präsentiert.",
-				"detailedDescription": "Ich habe eine saubere, professionelle Präsentationsplattform mit Next.js entwickelt, um die Funktionalität und praktischen Anwendungen meiner veröffentlichten NPM-Pakete zu demonstrieren. Die Plattform bietet Live-Implementierungsbeispiele, umfassende Nutzungsdokumentation und interaktive Komponentenvorschauen. Ich habe Performance-Optimierungstechniken wie Lazy Loading und effizientes Bundle-Management implementiert, was zu einer Reduktion der Seitenladezeiten um 35 % und einer Verbesserung des Nutzerengagements um 20 % führte. Jedes Paket enthält Installationsanleitungen, API-Dokumentation und praktische Anwendungsfälle, um Entwicklern das Verständnis und die Implementierung der Lösungen zu erleichtern.",
-				"features": [
-					"Live-Demonstrationen von NPM-Paketen",
-					"Interaktive Komponentenvorschauen",
-					"Umfassende Dokumentation und Nutzungsbeispiele",
-					"Installationsanleitungen und Code-Snippets",
-					"Performance-optimierte Ladezeiten",
-					"Responsives Design für Entwickler",
-					"Such- und Filterfunktionalität",
-					"Paket-Statistiken und Download-Metriken"
-				],
-				"role": "Frontend-Entwickler & Paketautor"
-			},
-			{
-				"title": "Cloudify Storage Provider - Next.js Plattform",
-				"description": "Eine moderne Cloud-Speicherlösung, entwickelt mit Next.js, die nahtloses Dateimanagement, Freigabefunktionen und Echtzeit-Kollaborationsmöglichkeiten bietet.",
-				"detailedDescription": "Ich habe ein umfassendes Cloud-Speicherplattform-Frontend mit Next.js entwickelt, das über fortschrittliche Dateimanagement-Funktionen verfügt. Ich habe eine responsive und intuitive Benutzeroberfläche mit Tailwind CSS und NextUI-Komponenten implementiert. Redux wurde für ein effizientes globales Zustandsmanagement bei komplexen Dateioperationen und Nutzerinteraktionen verwendet. Die Plattform wurde auf Vercel für optimale Performance und Skalierbarkeit bereitgestellt und bietet Drag-and-Drop-Funktionalität, Dateivorschauen und sichere Freigabemechanismen.",
-				"features": [
-					"Echtzeit-Dateisynchronisation",
-					"Dateifreigabe mit Berechtigungssteuerung",
-					"Fortschrittliches Such- und Filtersystem",
-					"Responsives Design für alle Geräte",
-					"Sichere Dateispeicherung und -verwaltung",
-					"Benutzerauthentifizierung und -autorisierung"
-				],
-				"role": "Full-Stack-Entwickler & UI/UX-Designer"
-			},
-			{
-				"title": "Gamies Gaming World - Next.js Frontend",
-				"description": "Ein modernes Gaming-Plattform-Frontend, entwickelt mit Next.js, das Spieleentdeckung, Benutzerprofile und interaktive UI-Komponenten mit nahtlosem Zustandsmanagement bietet.",
-				"detailedDescription": "Ich habe eine umfassende Gaming-Frontend-Anwendung entwickelt, die auf Vercel mit Next.js bereitgestellt wurde. Ich habe ein responsives Design mit TailwindCSS und eine dynamische Komponentenbibliothek mit NextUI implementiert. Der komplexe Anwendungszustand wurde mit Redux verwaltet, und die Plattform wurde mit der RAWG.io-API integriert, um Spiele-Daten in Echtzeit abzurufen und zu filtern.",
-				"features": [
-					"Responsiver Spielekatalog mit Such- und Filterfunktionen",
-					"Benutzerauthentifizierung und Profilverwaltung",
-					"Spieldetails mit Bewertungen und Rezensionen",
-					"Sammlung favorisierter Spiele",
-					"Optimierte Performance mit SSR und ISR"
-				],
-				"role": "Frontend-Entwickler"
-			},
-			{
-				"title": "MovieHUB Unterhaltungsplattform - Full Stack",
-				"description": "Eine umfassende Unterhaltungsplattform mit Filmen, TV-Serien und Prominenteninformationen, die personalisierte Benutzererfahrungen und erweiterte Anpassungsoptionen bietet.",
-				"detailedDescription": "Ich habe eine Full-Stack-Unterhaltungsanwendung mit modernen Webtechnologien entwickelt, die eine nahtlose Integration der TMDB-API bietet. Ich habe eine responsive und immersive Benutzeroberfläche mit umfassenden Anpassungsmöglichkeiten wie Themenwechsel, Schriftfamilienauswahl und personalisierten Inhaltspräferenzen erstellt. Ich habe eine fortschrittliche Suchfunktion, detaillierte Medienseiten und Benutzer-Watchlist-Funktionen mit persistentem Datenspeicher implementiert.",
-				"features": [
-					"Umfassende Datenbank für Filme und TV-Serien",
-					"Fortschrittliche Suche mit Filtern und Kategorien",
-					"Anpassbare Themen (Hell-/Dunkelmodus)",
-					"Mehrere Schriftfamilienoptionen",
-					"Prominentenprofile und Filmografie",
-					"Benutzer-Watchlist- und Favoritensystem",
-					"Responsives Design für alle Geräte",
-					"Echtzeit-Datenabrufe von der TMDB-API"
-				],
-				"role": "Full-Stack-Entwickler & UI-Designer"
-			},
-			{
-				"title": "Job Desktop Dashboard - React Schnittstelle",
-				"description": "Eine moderne Desktop-Dashboard-Schnittstelle für die Jobverwaltung mit maßgeschneiderten Karussellkomponenten und intuitivem Benutzererlebnisdesign.",
-				"detailedDescription": "Ich habe eine ausgefeilte Desktop-Dashboard-Schnittstelle mit ReactJS entwickelt, mit einem Fokus auf Performance und maßgeschneiderte Komponentenimplementierung. Ich habe ein maßgeschneidertes Karussellsystem von Grund auf ohne Abhängigkeit von externen Bibliotheken wie Swiper.JS entwickelt, was ein tiefes Verständnis von React-Hooks und DOM-Manipulation demonstriert. Ich habe ein umfassendes Jobverwaltungs-Dashboard mit Statistikvisualisierung, Aufgabenverfolgung und benutzerfreundlichem Navigationssystem erstellt.",
-				"features": [
-					"Maßgeschneiderte Karussellkomponente ohne externe Bibliotheken",
-					"Responsiver Desktop-First-Designansatz",
-					"Interaktives Dashboard mit Echtzeit-Statistiken",
-					"Jobverfolgungs- und Verwaltungssystem",
-					"Flüssige Animationen und Übergänge",
-					"Modulare Komponentenarchitektur",
-					"Performance-optimiertes Rendering",
-					"Cross-Browser-Kompatibilität"
-				],
-				"role": "Frontend-Entwickler & UI-Designer"
-			}
-		]
-	},
-	"about": {
-		"about": "Über mich",
-		"title": "Ideen in skalierbare digitale Lösungen verwandeln",
-		"items": [
-			{
-				"title": "Zufriedene Kunden"
-			},
-			{
-				"title": "Jahre Erfahrung"
-			},
-			{
-				"title": "Abgeschlossene Projekte"
-			}
-		],
-		"descriptions": [
-			"Ich bin ein leidenschaftlicher Full-Stack-Entwickler, der sich auf moderne Webtechnologien spezialisiert hat. Mit Expertise in Frontend- und Backend-Entwicklung erstelle ich nahtlose, skalierbare Anwendungen, die außergewöhnliche Benutzererfahrungen bieten und gleichzeitig eine robuste Serverseitenarchitektur aufrechterhalten.",
-			"Mein Ansatz kombiniert sauberen, wartbaren Code mit modernsten Technologien wie Next.js, NestJS und TypeScript. Ich glaube daran, Lösungen zu entwickeln, die nicht nur aktuelle Anforderungen erfüllen, sondern auch zukunftssicher und leicht skalierbar sind."
-		],
-		"personalDetails": [
-			{ "title": "Name" },
-			{ "title": "Telefon" },
-			{ "title": "E-Mail" },
-			{ "title": "Standort" }
-		],
-		"services": [
-			{
-				"title": "Frontend-Entwicklung",
-				"description": "Entwicklung responsiver, interaktiver Webanwendungen mit Next.js und TypeScript, gestylt mit TailwindCSS und erweitert durch ShadCN UI-Komponenten. Experte in Zustandsmanagement mit Redux Toolkit und Context API sowie spezialisierten Bibliotheken wie ReactFlow für komplexe Visualisierungen."
-			},
-			{
-				"title": "Backend-Entwicklung",
-				"description": "Entwicklung robuster APIs und serverseitiger Anwendungen mit NestJS und TypeScript. Erfahren in Datenbankdesign, Authentifizierungssystemen, Microservices-Architektur und Implementierung skalierbarer Backend-Lösungen mit angemessener Fehlerbehandlung und Sicherheitsmaßnahmen."
-			},
-			{
-				"title": "Full-Stack-Lösungen",
-				"description": "End-to-End-Anwendungsentwicklung, die moderne Frontend-Frameworks mit leistungsstarken Backend-Systemen kombiniert. Spezialisiert auf die Schaffung nahtloser Integrationen, optimierter Performance und wartbarer Codebasen mit angemessenen Test- und Bereitstellungsstrategien."
-			},
-			{
-				"title": "UI/UX-Implementierung",
-				"description": "Umsetzung von Design-Mockups in pixelgenaue, responsive Schnittstellen mit flüssigen Animationen und optimalem Benutzererlebnis. Fokus auf Barrierefreiheit, Performance-Optimierung und Cross-Browser-Kompatibilität mit modernen CSS-Techniken und Komponentenbibliotheken."
-			}
-		],
-		"highlights": [
-			"Über 3 Jahre professionelle Entwicklungserfahrung",
-			"Expertise in moderner TypeScript-orientierter Entwicklung",
-			"Starker Fokus auf saubere Architektur und skalierbare Lösungen",
-			"Erfahrung mit SQL- und NoSQL-Datenbanken",
-			"Kompetent in modernen Bereitstellungs- und DevOps-Praktiken",
-			"Leidenschaftlich für kontinuierliches Lernen und das Up-to-date-Bleiben mit den neuesten Technologien"
-		]
-	},
-	"resume": {
-		"resume": "Lebenslauf",
-		"title": "Bildung & Beruflicher Werdegang",
-		"description": "Eine fundierte akademische Grundlage in Kombination mit vielfältiger Berufserfahrung hat es mir ermöglicht, als vielseitiger Softwareentwickler zu wachsen, der sich dem kontinuierlichen Lernen, der Innovation und der Bereitstellung wirkungsvoller Lösungen verschrieben hat.",
-		"courseBy": "Institution:",
-		"myEducation": "Bildung",
-		"educationDescription": "Ein Überblick über meine akademischen Qualifikationen und Schwerpunkte während meiner Lernreise.",
-		"educations": [
-			{
-				"title": "Bachelor of Vocation in Softwareentwicklung",
-				"courseBy": "Guru Gobind Singh Indraprastha Universität",
-				"description": "Spezialisiert auf Softwareentwicklung mit Schwerpunkt auf Webtechnologien, Systemarchitektur und Datenstrukturen & Algorithmen."
-			},
-			{
-				"title": "Oberstufe (12. Klasse) - Geisteswissenschaften",
-				"courseBy": "Nationales Institut für Offene Schulbildung (NIOS)",
-				"description": "Fokus auf Wirtschaft, Hindi, Geographie, Englisch, Geschichte und Politikwissenschaft, Entwicklung starker analytischer und sozialwissenschaftlicher Perspektiven."
-			},
-			{
-				"title": "Mittlere Reife (10. Klasse)",
-				"courseBy": "Zentraler Ausschuss für Sekundarbildung (CBSE)",
-				"description": "Abschluss der grundlegenden Bildung mit Fokus auf Kernfächern, Förderung der allgemeinen akademischen und persönlichen Entwicklung."
-			}
-		],
-		"myExperience": "Berufserfahrung",
-		"experienceDescription": "Eine Zusammenfassung meiner beruflichen Beiträge, die wirkungsvolle Projekte, technische Expertise und Zusammenarbeit in vielfältigen Umgebungen hervorhebt.",
-		"experiences": [
-			{
-				"title": "Softwareentwickler",
-				"description": "Beitrag zur Entwicklung eines skalierbaren Garantiemanagementsystems, Verbesserung von Unternehmens-Workflows mit rollenbasiertem Zugriff und Partnerintegrationen.",
-				"responsibilities": [
-					"Entwicklung einer Multi-Tenant-SaaS-Plattform für über 10 Unternehmenskunden, Verbesserung der Skalierbarkeit und Modularität.",
-					"Entwurf und Implementierung eines rollenbasierten Zugriffskontrollsystems (RBAC), Reduzierung von Sicherheitsvorfällen um 85 % und Unterstützung von über 50 Rollenkonfigurationen.",
-					"Verbesserung des Admin-Dashboards und Onboarding-Workflows, Reduzierung der Konfigurationszeit um 40 %.",
-					"Optimierung der Partner- und Händler-Onboarding-Prozesse, Reduzierung der Einrichtungszeit um 50 % und Ermöglichung von über 100 Partnern, Workflows unabhängig zu verwalten."
-				]
-			},
-			{
-				"title": "Softwareentwickler",
-				"description": "Leitung der Entwicklung eines Tracking-Managementsystems, Bereitstellung von Echtzeit-Analysen, Geofencing und skalierbaren Backend-APIs.",
-				"responsibilities": [
-					"Entwicklung einer responsiven Webanwendung mit Angular, Verbesserung der Ladezeiten um 40 % für über 2.000 tägliche Nutzer.",
-					"Entwurf und Optimierung von REST-APIs mit FastAPI, effiziente Handhabung von über 5.000 täglichen Anfragen.",
-					"Integration von OpenSearch für Echtzeit-Analysen, Verbesserung der Abfrageleistung und Systemreaktionsfähigkeit um 30 %.",
-					"Implementierung von Geofencing mit Leaflet.js und Elasticsearch, Ermöglichung von Echtzeit-GPS-Tracking mit 25 % schnellerer Datenabfrage."
-				]
-			}
-		],
-		"myFavouriteToolsAndLibs": "Meine Lieblingswerkzeuge und Bibliotheken",
-		"toolsAndLibs": [
-			{
-				"title": "HTML5",
-				"description": "Erfahren in der Erstellung strukturierter Webseiten."
-			},
-			{
-				"title": "CSS",
-				"description": "Kompetent in responsivem Design mit TailwindCSS."
-			},
-			{
-				"title": "JavaScript",
-				"description": "Erfahren in dynamischen Webanwendungen."
-			},
-			{
-				"title": "React.js",
-				"description": "Experte in der Erstellung interaktiver Benutzeroberflächen."
-			},
-			{
-				"title": "Next.js",
-				"description": "Spezialisiert auf SSR- und SSG-Apps."
-			},
-			{
-				"title": "NestJS",
-				"description": "Kompetent in skalierbaren Backend-Lösungen."
-			},
-			{
-				"title": "Angular",
-				"description": "Kompetent in robusten Frontend-Frameworks."
-			},
-			{
-				"title": "TypeScript",
-				"description": "Experte in statischer Typisierung für JavaScript."
-			},
-			{
-				"title": "Prisma",
-				"description": "Kompetent in typsicherem ORM."
-			},
-			{
-				"title": "MongoDB",
-				"description": "Erfahren mit NoSQL-Datenbanken."
-			},
-			{
-				"title": "PostgreSQL",
-				"description": "Kompetent in relationalen Datenbanken."
-			},
-			{
-				"title": "Strapi",
-				"description": "Kompetent in Headless-CMS."
-			},
-			{
-				"title": "FastAPI",
-				"description": "Erfahren in hochperformanten APIs."
-			},
-			{
-				"title": "Docker",
-				"description": "Kompetent in Containerisierung."
-			},
-			{
-				"title": "Stripe",
-				"description": "Erfahren in Zahlungsintegrationen."
-			},
-			{
-				"title": "KI-Tools",
-				"description": "Nutzung von KI-IDEs für verbessertes Coding."
-			}
-		]
-	},
-	"contact": {
-		"contact": "Kontakt",
-		"title": "Lass uns etwas Großartiges zusammen machen!",
-		"description": "Möchtest du mehr über mich erfahren, mir von deinem Projekt erzählen oder einfach nur hallo sagen? Schreib mir eine Nachricht, und ich melde mich so schnell wie möglich zurück.",
-		"form": {
-			"yourName": "Dein Name*",
-			"emailAddress": "E-Mail-Adresse*",
-			"companyName": "Firmenname*",
-			"phoneNumber": "Telefonnummer*",
-			"description": "Beschreibung",
-			"sendMessage": "Nachricht senden"
-		},
-		"footer": [
-			{
-				"title": "Standort"
-			},
-			{
-				"title": "Telefon"
-			},
-			{
-				"title": "E-Mail"
-			}
-		]
 	},
 	"setting": {
 		"title": "Einstellungen",

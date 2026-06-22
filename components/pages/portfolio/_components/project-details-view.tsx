@@ -238,7 +238,7 @@ const ProjectDetailDialog: React.FC<ProjectDetailDialogProps> = ({
 				</Button>
 			</DialogTrigger>
 
-			<DialogContent className="max-w-5xl max-h-[90vh] p-0">
+			<DialogContent className="max-w-5xl min-w-[600px] max-h-[90vh] p-0">
 				<ScrollArea className="max-h-[90vh] p-6">
 					{/* Dialog Header */}
 					<DialogHeader className="space-y-4 pb-6">
