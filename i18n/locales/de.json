@@ -181,7 +181,7 @@
 				"title": "Jahre Erfahrung"
 			},
 			{
-				"value": 2,
+				"value": 3,
 				"title": "Abgeschlossene Projekte"
 			}
 		],
@@ -467,6 +467,24 @@
 				"iconName": "FaBrain",
 				"title": "KI-Tools",
 				"description": "Nutzung von KI-IDEs für verbessertes Coding."
+			},
+			{
+				"link": "https://www.langchain.com/",
+				"iconName": "SiLangchain",
+				"title": "LangChain",
+				"description": "Framework zur Erstellung von Anwendungen mit LLMs."
+			},
+			{
+				"link": "https://www.langchain.com/langgraph",
+				"iconName": "BiNetworkChart",
+				"title": "LangGraph",
+				"description": "Bibliothek zur Erstellung von zustandsgesteuerten Multi-Akteur-Anwendungen mit LLMs."
+			},
+			{
+				"link": "https://python.langchain.com/docs/concepts/rag/",
+				"iconName": "FaDatabase",
+				"title": "RAG",
+				"description": "Retrieval-Augmented Generation zur Fundierung von LLMs mit benutzerdefinierten Daten."
 			}
 		],
 		"resume": "Lebenslauf",

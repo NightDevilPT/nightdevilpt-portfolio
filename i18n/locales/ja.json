@@ -181,7 +181,7 @@
 				"title": "経験年数"
 			},
 			{
-				"value": 2,
+				"value": 3,
 				"title": "完了したプロジェクト"
 			}
 		],
@@ -467,6 +467,24 @@
 				"iconName": "FaBrain",
 				"title": "AIツール",
 				"description": "コーディングを強化するためにAI IDEを利用。"
+			},
+			{
+				"link": "https://www.langchain.com/",
+				"iconName": "SiLangchain",
+				"title": "LangChain",
+				"description": "LLMを使用したアプリケーション構築用フレームワーク。"
+			},
+			{
+				"link": "https://www.langchain.com/langgraph",
+				"iconName": "BiNetworkChart",
+				"title": "LangGraph",
+				"description": "LLMを使用したステートフルでマルチアクターなアプリケーション構築用ライブラリ。"
+			},
+			{
+				"link": "https://python.langchain.com/docs/concepts/rag/",
+				"iconName": "FaDatabase",
+				"title": "RAG",
+				"description": "カスタムデータでLLMをグラウンディングするための検索拡張生成。"
 			}
 		],
 		"resume": "履歴書",

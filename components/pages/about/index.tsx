@@ -37,7 +37,7 @@ const AboutPage: React.FC = () => {
 			}`}
 		>
 			<h2 className="text-6xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">
-				{item.value}{item.title !== "Years of Experience" && "+"}
+				{item.value}{index !== 1 && "+"}
 			</h2>
 			<p className="text-xl text-muted-foreground text-center font-medium">
 				{item.title}

@@ -9,6 +9,7 @@ import {
 	SiAngular,
 	SiFastapi,
 	SiDocker,
+	SiLangchain,
 } from "react-icons/si";
 import {
 	FaBrain,
@@ -16,12 +17,13 @@ import {
 	FaCss3Alt,
 	FaHtml5,
 	FaJsSquare,
+	FaDatabase,
 } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import React, { ElementType } from "react";
 import LogoLoop from "@/components/ui/LogoLoop";
 import BasePage from "@/components/shared/base-page";
-import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
+import { BiLogoPostgresql, BiLogoTypescript, BiNetworkChart } from "react-icons/bi";
 import EducationCard, { EducationItem } from "./_components/education-card";
 import { useLanguage } from "@/components/providers/context/language-context";
 import ExperienceCard, { ExperienceItem } from "./_components/experience-card";
@@ -46,6 +48,9 @@ const ResumePage: React.FC = () => {
 		SiFastapi: <SiFastapi className="text-primary" />, // Added (assuming icon exists)
 		SiDocker: <SiDocker className="text-primary" />, // Added
 		FaBrain: <FaBrain className="text-primary" />, // Added for AI Tools
+		SiLangchain: <SiLangchain className="text-primary" />,
+		BiNetworkChart: <BiNetworkChart className="text-primary" />,
+		FaDatabase: <FaDatabase className="text-primary" />,
 	};
 
 	return (

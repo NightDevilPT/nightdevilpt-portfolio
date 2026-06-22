@@ -181,7 +181,7 @@
 				"title": "Años de Experiencia"
 			},
 			{
-				"value": 2,
+				"value": 3,
 				"title": "Proyectos Completados"
 			}
 		],
@@ -467,6 +467,24 @@
 				"iconName": "FaBrain",
 				"title": "Herramientas de IA",
 				"description": "Utilizo IDEs de IA para mejorar la codificación."
+			},
+			{
+				"link": "https://www.langchain.com/",
+				"iconName": "SiLangchain",
+				"title": "LangChain",
+				"description": "Framework para construir aplicaciones con LLMs."
+			},
+			{
+				"link": "https://www.langchain.com/langgraph",
+				"iconName": "BiNetworkChart",
+				"title": "LangGraph",
+				"description": "Biblioteca para construir aplicaciones con estado y multi-actor con LLMs."
+			},
+			{
+				"link": "https://python.langchain.com/docs/concepts/rag/",
+				"iconName": "FaDatabase",
+				"title": "RAG",
+				"description": "Generación Aumentada por Recuperación para fundamentar LLMs con datos personalizados."
 			}
 		],
 		"resume": "Currículum",

@@ -181,7 +181,7 @@
 				"title": "Years of Experience"
 			},
 			{
-				"value": 2,
+				"value": 3,
 				"title": "Projects Completed"
 			}
 		],
@@ -467,6 +467,24 @@
 				"iconName": "FaBrain",
 				"title": "AI Tools",
 				"description": "Utilize AI IDEs for enhanced coding."
+			},
+			{
+				"link": "https://www.langchain.com/",
+				"iconName": "SiLangchain",
+				"title": "LangChain",
+				"description": "Framework for building applications with LLMs."
+			},
+			{
+				"link": "https://www.langchain.com/langgraph",
+				"iconName": "BiNetworkChart",
+				"title": "LangGraph",
+				"description": "Library for building stateful, multi-actor applications with LLMs."
+			},
+			{
+				"link": "https://python.langchain.com/docs/concepts/rag/",
+				"iconName": "FaDatabase",
+				"title": "RAG",
+				"description": "Retrieval-Augmented Generation for grounding LLMs with custom data."
 			}
 		],
 		"resume": "Resume",
